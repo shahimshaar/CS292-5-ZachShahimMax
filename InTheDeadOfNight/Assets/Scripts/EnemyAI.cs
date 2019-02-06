@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float speed = 1.0f;
+    private Transform target;
+
     void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
     void Update()
+    {
+        Movement();
+    }
+
+    private void Movement()
     {
         
     }
