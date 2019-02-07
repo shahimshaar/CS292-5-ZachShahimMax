@@ -14,18 +14,20 @@ public class Spawn_Manager : MonoBehaviour
 
     IEnumerator EnemySpawnRoutine()
     {
+        
         while (true)
         {
 
             //Spawns enemies along the edge
             int SpawnPos = Random.Range(1, 4);
+            float SpawnTime = .5f;
 
                 //Left side
-                if (SpawnPos == 1)
+            if (SpawnPos == 1)
                 {
                     float randomy = Random.Range(-5.0f, 5.0f);
                     Instantiate(EnemyPrefab, new Vector3(-15.5f, randomy, 0), Quaternion.identity);
-                    yield return new WaitForSeconds(2.0f);
+                    yield return new WaitForSeconds(SpawnTime);
                 }
 
                 //Right side
@@ -33,7 +35,7 @@ public class Spawn_Manager : MonoBehaviour
                 {
                     float randomy = Random.Range(-5.0f, 5.0f);
                     Instantiate(EnemyPrefab, new Vector3(15.5f, randomy, 0), Quaternion.identity);
-                    yield return new WaitForSeconds(2.0f);
+                    yield return new WaitForSeconds(SpawnTime);
                 }
 
                 //Top
@@ -41,7 +43,7 @@ public class Spawn_Manager : MonoBehaviour
                 {
                     float randomx = Random.Range(-15.5f, 15.5f);
                     Instantiate(EnemyPrefab, new Vector3(randomx, 5.0f, 0), Quaternion.identity);
-                    yield return new WaitForSeconds(2.0f);
+                    yield return new WaitForSeconds(SpawnTime);
                 }
 
                 //Bottom
@@ -49,7 +51,7 @@ public class Spawn_Manager : MonoBehaviour
                 {
                     float randomx = Random.Range(-15.5f, 15.5f);
                     Instantiate(EnemyPrefab, new Vector3(randomx, -5.5f, 0), Quaternion.identity);
-                    yield return new WaitForSeconds(2.0f);
+                    yield return new WaitForSeconds(SpawnTime);
                 }
         }
     }
