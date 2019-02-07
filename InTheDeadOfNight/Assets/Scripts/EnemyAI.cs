@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    public float speed = 1.0f;
-    private Transform target;
 
     void Start()
     {
@@ -15,10 +13,20 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         Movement();
+        DestroyEnemy();
     }
 
     private void Movement()
     {
-        
+        //Makes enemy move towards the center
+        transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, transform.position.z), new Vector3(0, 0, 0), Random.Range(.5f,3.0f) * Time.deltaTime);
+    }
+
+    void DestroyEnemy()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            
+        }
     }
 }
