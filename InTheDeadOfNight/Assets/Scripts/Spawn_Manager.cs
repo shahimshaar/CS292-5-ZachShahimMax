@@ -19,7 +19,7 @@ public class Spawn_Manager : MonoBehaviour
         {
 
             //Spawns enemies along the edge
-            int SpawnPos = Random.Range(1, 4);
+            int SpawnPos = Random.Range(1, 5);
             float SpawnTime = .5f;
 
                 //Left side
