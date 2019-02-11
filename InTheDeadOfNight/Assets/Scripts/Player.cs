@@ -13,7 +13,12 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        uimanager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
 
+        if (uimanager != null)
+        {
+            uimanager.UpdateDarkness(Darkness);
+        }
     }
 
     // Update is called once per frame
@@ -26,7 +31,8 @@ public class Player : MonoBehaviour
     void DarknessMeter()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        Darkness = enemies.Length;
+        Darkness = enemies.Length*5;
+        uimanager.UpdateDarkness(Darkness/5);
     }
 
 
