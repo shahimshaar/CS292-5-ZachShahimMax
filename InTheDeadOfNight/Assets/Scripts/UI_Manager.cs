@@ -8,9 +8,20 @@ public class UI_Manager : MonoBehaviour
     public Sprite[] Darkness;
     public Image DarknessImageDisplay;
 
-
-    public void UpdateDarkness(int currDarkness)
+    void Start()
     {
-        DarknessImageDisplay.sprite = Darkness[currDarkness];
+
+    }
+
+    public void UpdateLives(int currentlives)
+    {
+        Debug.Log("Player lives" + currentlives);
+        DarknessImageDisplay.sprite = lives[currentlives];
+    }
+
+
+    public void UpdateScore()
+    {
+
     }
 }
