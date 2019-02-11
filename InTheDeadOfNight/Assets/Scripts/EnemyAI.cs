@@ -8,11 +8,13 @@ public class EnemyAI : MonoBehaviour
     private GameObject playerObject;
     private Player player;
     private UI_Manager uimanager;
+    private SpriteRenderer spriteRenderer;
 
     void Awake()
     {
         player = GetComponent<Player>();
         playerObject = GameObject.FindWithTag("Player");
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
 
@@ -26,6 +28,7 @@ public class EnemyAI : MonoBehaviour
         Movement();
         PowerUp2();
         PowerUp3();
+        Flip();
 
     }
 
@@ -44,6 +47,17 @@ public class EnemyAI : MonoBehaviour
         if (distanceToPlayer.sqrMagnitude <= CriticalArea)
         {
             transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, transform.position.z), new Vector3(0, 0, 0), 0 * Time.deltaTime);
+        }
+    }
+
+    void Flip()
+    {
+        if (transform.position.x <= 0)
+        {
+            if(spriteRenderer != null)
+            {
+                spriteRenderer.flipX = true;
+            }
         }
     }
 

@@ -10,8 +10,6 @@ public class Player : MonoBehaviour
     public int Darkness = 0;
     private const float CriticalArea = .15f;
     private UI_Manager uimanager;
-    private float damRate = 2.0f;
-    private float canDam = 0.0f;
 
     void Start()
     {
@@ -53,8 +51,6 @@ public class Player : MonoBehaviour
         if (other.tag == "Enemy")
         {
             Health--;
-            canDam = Time.time + damRate;
-
         }
 
         if (Health % 5 == 0)
