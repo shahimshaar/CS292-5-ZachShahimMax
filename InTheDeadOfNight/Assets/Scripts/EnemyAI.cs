@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    private const float CriticalArea = .1f;
+    private const float CriticalArea = .15f;
     private GameObject playerObject;
     private Player player;
+    private UI_Manager uimanager;
 
     void Awake()
     {
@@ -17,7 +18,7 @@ public class EnemyAI : MonoBehaviour
 
     void Start()
     {
-
+        uimanager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
     }
 
     void Update()
@@ -43,9 +44,9 @@ public class EnemyAI : MonoBehaviour
         if (distanceToPlayer.sqrMagnitude <= CriticalArea)
         {
             transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, transform.position.z), new Vector3(0, 0, 0), 0 * Time.deltaTime);
-
         }
     }
+
 
     void PowerUp2()
     {

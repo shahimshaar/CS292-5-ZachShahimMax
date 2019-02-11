@@ -5,11 +5,13 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private GameObject EnemyGameObject;
+    public GameObject[] enemies;
     public int Health = 100;
     public int Darkness = 0;
-    public GameObject[] enemies;
+    private const float CriticalArea = .15f;
     private UI_Manager uimanager;
-
+    private float damRate = 2.0f;
+    private float canDam = 0.0f;
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class Player : MonoBehaviour
         if (uimanager != null)
         {
             uimanager.UpdateDarkness(Darkness);
+            uimanager.UpdateLight(Health / 5);
         }
     }
 
@@ -26,25 +29,50 @@ public class Player : MonoBehaviour
     {
         Death();
         DarknessMeter();
+        Lightmeter();
+        Debug.Log("Health: " + Health);
     }
 
     void DarknessMeter()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");      //stores each enemy on screen into a list
         Darkness = enemies.Length * 5;                                            //updates darkness
-        uimanager.UpdateDarkness(Darkness/5);                                 //Passes darkness into the uimanger to update                                 
+        uimanager.UpdateDarkness(Darkness / 5);                                 //Passes darkness into the uimanger to update                                 
+    }
+
+    void Lightmeter()
+    {
+        if (Health % 5 == 0)
+        {
+            uimanager.UpdateLight(Health / 5);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Enemy")
+        {
+            Health--;
+            canDam = Time.time + damRate;
+
+        }
+
+        if (Health % 5 == 0)
+        {
+            uimanager.UpdateLight(Health / 5);
+        }
     }
 
 
-    void Death()
-    {
 
-        if (Health <= 0)
+void Death()
+    {
+        if (Darkness == 100)
         {
             Destroy(this.gameObject);
         }
 
-        if (Darkness == 100)
+        if (Health <= 0)
         {
             Destroy(this.gameObject);
         }

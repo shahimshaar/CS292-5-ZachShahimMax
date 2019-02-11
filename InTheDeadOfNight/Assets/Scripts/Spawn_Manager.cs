@@ -25,24 +25,24 @@ public class Spawn_Manager : MonoBehaviour
                 //Left side
                 if (SpawnPos == 1)
                 {
-                    float randomy = Random.Range(-1.3f, 1.35f);
-                    Instantiate(EnemyPrefab, new Vector3(-2.8f, randomy, 0), Quaternion.identity);
+                    float randomy = Random.Range(-1.7f, 1.7f);
+                    Instantiate(EnemyPrefab, new Vector3(-3.0f, randomy, 0), Quaternion.identity);
                     yield return new WaitForSeconds(SpawnTime);
                 }
 
                 //Right side
                 else if (SpawnPos == 2)
                 {
-                    float randomy = Random.Range(-1.3f, 1.35f);
-                    Instantiate(EnemyPrefab, new Vector3(2.8f, randomy, 0), Quaternion.identity);
+                    float randomy = Random.Range(-1.7f, 1.7f);
+                    Instantiate(EnemyPrefab, new Vector3(3.0f, randomy, 0), Quaternion.identity);
                     yield return new WaitForSeconds(SpawnTime);
                 }
 
                 //Top
                 else if (SpawnPos == 3)
                 {
-                    float randomx = Random.Range(-2.8f, 2.8f);
-                    Instantiate(EnemyPrefab, new Vector3(randomx, 1.35f, 0), Quaternion.identity);
+                    float randomx = Random.Range(-3.0f, 3.0f);
+                    Instantiate(EnemyPrefab, new Vector3(randomx, 1.7f, 0), Quaternion.identity);
                     yield return new WaitForSeconds(SpawnTime);
                 }
 
@@ -50,7 +50,7 @@ public class Spawn_Manager : MonoBehaviour
                 else if (SpawnPos == 4)
                 {
                     float randomx = Random.Range(-2.8f, 2.8f);
-                    Instantiate(EnemyPrefab, new Vector3(randomx, -1.3f, 0), Quaternion.identity);
+                    Instantiate(EnemyPrefab, new Vector3(randomx, -1.7f, 0), Quaternion.identity);
                     yield return new WaitForSeconds(SpawnTime);
                 }
         }
