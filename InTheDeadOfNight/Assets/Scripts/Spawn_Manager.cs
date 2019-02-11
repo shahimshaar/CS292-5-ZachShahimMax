@@ -23,7 +23,7 @@ public class Spawn_Manager : MonoBehaviour
             float SpawnTime = .5f;
 
                 //Left side
-            if (SpawnPos == 1)
+                if (SpawnPos == 1)
                 {
                     float randomy = Random.Range(-5.0f, 5.0f);
                     Instantiate(EnemyPrefab, new Vector3(-15.5f, randomy, 0), Quaternion.identity);

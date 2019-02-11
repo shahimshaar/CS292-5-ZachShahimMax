@@ -5,15 +5,19 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     private const float CriticalArea = 5F;
-    private GameObject playerGameObject;
-    public int Health = 100;
-    private float damRate= 1.0f;
-    private float canDam = 0.0f;
+    private GameObject playerObject;
+    private Player player;
+
+    void Awake()
+    {
+        player = GetComponent<Player>();
+        playerObject = GameObject.FindWithTag("Player");
+    }
 
 
     void Start()
     {
-        playerGameObject = GameObject.FindWithTag("Player");
+
     }
 
     void Update()
@@ -26,7 +30,7 @@ public class EnemyAI : MonoBehaviour
     //Makes enemy move towards the center
     private void Movement()
     {
-        Vector3 distanceToPlayer = playerGameObject.transform.position - this.transform.position;
+        Vector3 distanceToPlayer = playerObject.transform.position - this.transform.position;
 
         if (distanceToPlayer.sqrMagnitude >= CriticalArea)
             {
@@ -40,36 +44,17 @@ public class EnemyAI : MonoBehaviour
         }       
     }
 
-
-    //Health
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Player")
-        {
-            Player player = other.GetComponent<Player>();
-
-            //while (player.CurrHealth > 0)
-            //{
-                if (Time.time > canDam)
-                {
-                    player.CurrHealth--;
-                    canDam = Time.time + damRate;
-                }
-            //}
-        }
-    }
-
-
     void PowerUp2()
     {
         if (Input.GetKeyDown("a"))
         {
             //Setting up the critical area
-            Vector3 distanceToPlayer = playerGameObject.transform.position - this.transform.position;
+            Vector3 distanceToPlayer = playerObject.transform.position - this.transform.position;
 
             //Destroys enemies in critical area
             if (distanceToPlayer.sqrMagnitude <= CriticalArea)
             {
+                //player.Darkness--;
                 Destroy(this.gameObject);
             }
         }

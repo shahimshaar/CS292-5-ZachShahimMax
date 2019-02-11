@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public int StartHealth = 100;
-    public int CurrHealth;
+    private GameObject EnemyGameObject;
+    public int Health = 100;
     public int Darkness = 0;
+    public GameObject[] enemies;
+    private UI_Manager uimanager;
 
-    private void Awake()
-    {
-        CurrHealth = StartHealth;
-    }
 
     void Start()
     {
@@ -22,14 +20,25 @@ public class Player : MonoBehaviour
     void Update()
     {
         Death();
-        Debug.Log("Health: "+ CurrHealth);
-        Debug.Log(CurrHealth);
+        DarknessMeter();
     }
+
+    void DarknessMeter()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        Darkness = enemies.Length;
+    }
+
 
     void Death()
     {
 
-        if (CurrHealth <= 0)
+        if (Health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+
+        if (Darkness == 100)
         {
             Destroy(this.gameObject);
         }
