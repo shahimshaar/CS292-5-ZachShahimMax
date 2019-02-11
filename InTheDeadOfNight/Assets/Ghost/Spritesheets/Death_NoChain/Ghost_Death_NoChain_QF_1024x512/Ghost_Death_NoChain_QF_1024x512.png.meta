@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: a9a30c9bb6c315e45ac4bc55fbfcbc90
+timeCreated: 1464011963
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ghost_Death_0000
+    21300002: Ghost_Death_0004
+    21300004: Ghost_Death_0008
+    21300006: Ghost_Death_0012
+    21300008: Ghost_Death_0016
+    21300010: Ghost_Death_0020
+    21300012: Ghost_Death_0024
+    21300014: Ghost_Death_0028
+    21300016: Ghost_Death_0032
+    21300018: Ghost_Death_0036
+    21300020: Ghost_Death_0040
+    21300022: Ghost_Death_0044
+    21300024: Ghost_Death_0048
+    21300026: Ghost_Death_0052
+    21300028: Ghost_Death_0056
+    21300030: Ghost_Death_0060
+    21300032: Ghost_Death_0064
+    21300034: Ghost_Death_0068
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ghost_Death_0000
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 369
+        width: 166
+        height: 136
+      alignment: 9
+      pivot: {x: 0.42168674, y: 0.3970588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: 67}
+        - {x: 67, y: 82}
+        - {x: 23, y: 82}
+        - {x: -70, y: 37}
+        - {x: -70, y: 10}
+        - {x: -59, y: 7}
+        - {x: -42, y: -27}
+        - {x: -18, y: -54}
+        - {x: 37, y: -54}
+        - {x: 44, y: -43}
+        - {x: 80, y: 14}
+        - {x: 96, y: 40}
+    - name: Ghost_Death_0004
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 21
+        width: 168
+        height: 114
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.4649123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 61}
+        - {x: -76, y: 51}
+        - {x: -78, y: 41}
+        - {x: -78, y: 23}
+        - {x: -60, y: 18}
+        - {x: -32, y: -36}
+        - {x: -11, y: -52}
+        - {x: -3, y: -53}
+        - {x: 33, y: -53}
+        - {x: 81, y: -17}
+        - {x: 90, y: 4}
+        - {x: 90, y: 61}
+    - name: Ghost_Death_0008
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 15
+        width: 150
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48, y: 0.44166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: -20}
+        - {x: 78, y: -5}
+        - {x: 75, y: 10}
+        - {x: 54, y: 22}
+        - {x: 32, y: 43}
+        - {x: 25, y: 67}
+        - {x: -72, y: 67}
+        - {x: -72, y: 40}
+        - {x: -58, y: 16}
+        - {x: -16, y: -53}
+        - {x: 39, y: -53}
+        - {x: 48, y: -47}
+        - {x: 36, y: -18}
+        - {x: 28, y: -11}
+        - {x: 52, y: -24}
+    - name: Ghost_Death_0012
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 224
+        width: 128
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4453125, y: 0.41860464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 75}
+        - {x: -57, y: 75}
+        - {x: -57, y: 35}
+        - {x: -29, y: -41}
+        - {x: -5, y: -54}
+        - {x: 43, y: -54}
+        - {x: 71, y: -43}
+        - {x: 71, y: -9}
+        - {x: 42, y: 51}
+    - name: Ghost_Death_0016
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 69
+        width: 110
+        height: 141
+      alignment: 9
+      pivot: {x: 0.38181818, y: 0.36879432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 89}
+        - {x: -39, y: 89}
+        - {x: -42, y: 81}
+        - {x: -42, y: 23}
+        - {x: -34, y: -52}
+        - {x: 68, y: -52}
+        - {x: 68, y: -26}
+        - {x: 38, y: 50}
+    - name: Ghost_Death_0020
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 232
+        width: 116
+        height: 146
+      alignment: 9
+      pivot: {x: 0.27586207, y: 0.33561644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -8}
+        - {x: 28, y: -4}
+        - {x: 35, y: -11}
+        - {x: 42, y: -25}
+        - {x: 84, y: -45}
+        - {x: 84, y: 1}
+        - {x: 62, y: 69}
+        - {x: 13, y: 97}
+        - {x: -32, y: 97}
+        - {x: -32, y: -14}
+        - {x: -25, y: -41}
+        - {x: -5, y: -49}
+        - {x: 32, y: -49}
+        - {x: 38, y: -41}
+        - {x: 38, y: -19}
+        - {x: 36, y: -13}
+    - name: Ghost_Death_0024
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 170
+        width: 164
+        height: 159
+      alignment: 9
+      pivot: {x: 0.35365853, y: 0.4025157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 95}
+        - {x: -51, y: 95}
+        - {x: -58, y: 91}
+        - {x: -58, y: 40}
+        - {x: -44, y: -34}
+        - {x: -9, y: -64}
+        - {x: 20, y: -64}
+        - {x: 33, y: -58}
+        - {x: 106, y: -24}
+        - {x: 106, y: 21}
+        - {x: 41, y: 86}
+    - name: Ghost_Death_0028
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 12
+        width: 166
+        height: 144
+      alignment: 9
+      pivot: {x: 0.37951806, y: 0.39583334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 51}
+        - {x: -47, y: -57}
+        - {x: 103, y: -57}
+        - {x: 103, y: 31}
+        - {x: 49, y: 77}
+        - {x: 3, y: 87}
+        - {x: -63, y: 87}
+        - {x: -63, y: 54}
+    - name: Ghost_Death_0032
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 392
+        width: 151
+        height: 113
+      alignment: 9
+      pivot: {x: 0.49006623, y: 0.37168142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74, y: 71}
+        - {x: -74, y: 17}
+        - {x: -52, y: -38}
+        - {x: -19, y: -42}
+        - {x: 47, y: -42}
+        - {x: 77, y: -20}
+        - {x: 77, y: 62}
+        - {x: 56, y: 71}
+    - name: Ghost_Death_0036
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 11
+        width: 151
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5033113, y: 0.30645162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: 48}
+        - {x: 65, y: 51}
+        - {x: 50, y: 86}
+        - {x: -76, y: 86}
+        - {x: -76, y: -21}
+        - {x: -72, y: -38}
+        - {x: 46, y: -38}
+        - {x: 71, y: -4}
+        - {x: 75, y: 13}
+        - {x: 75, y: 40}
+    - name: Ghost_Death_0040
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 67
+        width: 147
+        height: 132
+      alignment: 9
+      pivot: {x: 0.50340134, y: 0.3030303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 92}
+        - {x: -65, y: 91}
+        - {x: -74, y: 68}
+        - {x: -74, y: 20}
+        - {x: -30, y: -24}
+        - {x: -6, y: -40}
+        - {x: 44, y: -40}
+        - {x: 73, y: -11}
+        - {x: 73, y: 80}
+        - {x: 69, y: 92}
+    - name: Ghost_Death_0044
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 371
+        width: 130
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5538462, y: 0.3432836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 88}
+        - {x: -61, y: 88}
+        - {x: -72, y: 87}
+        - {x: -72, y: -41}
+        - {x: -70, y: -46}
+        - {x: 40, y: -46}
+        - {x: 58, y: -16}
+        - {x: 58, y: 72}
+        - {x: 56, y: 82}
+    - name: Ghost_Death_0048
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 367
+        width: 134
+        height: 138
+      alignment: 9
+      pivot: {x: 0.53731346, y: 0.41304347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 81}
+        - {x: -70, y: 47}
+        - {x: -72, y: 45}
+        - {x: -72, y: -36}
+        - {x: -39, y: -57}
+        - {x: 62, y: -57}
+        - {x: 62, y: 71}
+        - {x: 24, y: 81}
+    - name: Ghost_Death_0052
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 213
+        width: 156
+        height: 142
+      alignment: 9
+      pivot: {x: 0.42307693, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: 71}
+        - {x: -66, y: -71}
+        - {x: 37, y: -71}
+        - {x: 50, y: -68}
+        - {x: 90, y: 34}
+        - {x: 90, y: 55}
+        - {x: 52, y: 71}
+    - name: Ghost_Death_0056
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 343
+        width: 163
+        height: 162
+      alignment: 9
+      pivot: {x: 0.41104296, y: 0.56790125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 70}
+        - {x: -8, y: 68}
+        - {x: -67, y: -2}
+        - {x: -67, y: -30}
+        - {x: -63, y: -34}
+        - {x: -60, y: -33}
+        - {x: -43, y: -23}
+        - {x: -43, y: -62}
+        - {x: -7, y: -87}
+        - {x: 17, y: -92}
+        - {x: 50, y: -92}
+        - {x: 96, y: 27}
+        - {x: 96, y: 44}
+        - {x: 58, y: 70}
+    - name: Ghost_Death_0060
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 149
+        width: 165
+        height: 171
+      alignment: 9
+      pivot: {x: 0.4060606, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 72}
+        - {x: 19, y: 72}
+        - {x: 13, y: 64}
+        - {x: -61, y: -7}
+        - {x: -67, y: -20}
+        - {x: -67, y: -47}
+        - {x: -19, y: -99}
+        - {x: 53, y: -99}
+        - {x: 98, y: 31}
+        - {x: 98, y: 42}
+        - {x: 51, y: 71}
+    - name: Ghost_Death_0064
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 149
+        width: 168
+        height: 171
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 72}
+        - {x: -70, y: -15}
+        - {x: -70, y: -46}
+        - {x: -33, y: -78}
+        - {x: -7, y: -87}
+        - {x: 8, y: -99}
+        - {x: 54, y: -99}
+        - {x: 98, y: 30}
+        - {x: 98, y: 41}
+        - {x: 34, y: 72}
+    - name: Ghost_Death_0068
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 334
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.4269006, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 72}
+        - {x: -73, y: -14}
+        - {x: -73, y: -40}
+        - {x: -48, y: -98}
+        - {x: -44, y: -99}
+        - {x: 66, y: -99}
+        - {x: 98, y: 14}
+        - {x: 98, y: 47}
+        - {x: 46, y: 72}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

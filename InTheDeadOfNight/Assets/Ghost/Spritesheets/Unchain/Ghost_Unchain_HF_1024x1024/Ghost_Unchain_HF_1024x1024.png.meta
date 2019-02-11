@@ -1,0 +1,1130 @@
+fileFormatVersion: 2
+guid: 93a94d1049aa5ca48ada1aafaad35c78
+timeCreated: 1464009839
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ghost-UnChain_00000
+    21300002: Ghost-UnChain_00002
+    21300004: Ghost-UnChain_00004
+    21300006: Ghost-UnChain_00006
+    21300008: Ghost-UnChain_00008
+    21300010: Ghost-UnChain_00010
+    21300012: Ghost-UnChain_00012
+    21300014: Ghost-UnChain_00014
+    21300016: Ghost-UnChain_00016
+    21300018: Ghost-UnChain_00018
+    21300020: Ghost-UnChain_00020
+    21300022: Ghost-UnChain_00022
+    21300024: Ghost-UnChain_00024
+    21300026: Ghost-UnChain_00026
+    21300028: Ghost-UnChain_00028
+    21300030: Ghost-UnChain_00030
+    21300032: Ghost-UnChain_00032
+    21300034: Ghost-UnChain_00034
+    21300036: Ghost-UnChain_00036
+    21300038: Ghost-UnChain_00038
+    21300040: Ghost-UnChain_00040
+    21300042: Ghost-UnChain_00042
+    21300044: Ghost-UnChain_00044
+    21300046: Ghost-UnChain_00046
+    21300048: Ghost-UnChain_00048
+    21300050: Ghost-UnChain_00050
+    21300052: Ghost-UnChain_00052
+    21300054: Ghost-UnChain_00054
+    21300056: Ghost-UnChain_00056
+    21300058: Ghost-UnChain_00058
+    21300060: Ghost-UnChain_00060
+    21300062: Ghost-UnChain_00062
+    21300064: Ghost-UnChain_00064
+    21300066: Ghost-UnChain_00066
+    21300068: Ghost-UnChain_00068
+    21300070: Ghost-UnChain_00070
+    21300072: Ghost-UnChain_00072
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ghost-UnChain_00000
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 908
+        width: 123
+        height: 112
+      alignment: 9
+      pivot: {x: 0.6422764, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: 24}
+        - {x: -79, y: 10}
+        - {x: -44, y: -55}
+        - {x: 44, y: -55}
+        - {x: 44, y: 9}
+        - {x: 35, y: 47}
+        - {x: 7, y: 57}
+        - {x: -29, y: 57}
+        - {x: -77, y: 38}
+    - name: Ghost-UnChain_00002
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 907
+        width: 129
+        height: 113
+      alignment: 9
+      pivot: {x: 0.65891474, y: 0.4778761}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 59}
+        - {x: -47, y: 59}
+        - {x: -72, y: 49}
+        - {x: -85, y: 28}
+        - {x: -85, y: 17}
+        - {x: -83, y: 16}
+        - {x: -41, y: -37}
+        - {x: -12, y: -54}
+        - {x: 44, y: -54}
+        - {x: 44, y: -22}
+        - {x: 28, y: 41}
+    - name: Ghost-UnChain_00004
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 904
+        width: 134
+        height: 116
+      alignment: 9
+      pivot: {x: 0.6492537, y: 0.46551725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 62}
+        - {x: -73, y: 51}
+        - {x: -87, y: 35}
+        - {x: -87, y: 18}
+        - {x: -32, y: -44}
+        - {x: -8, y: -54}
+        - {x: 38, y: -54}
+        - {x: 47, y: -52}
+        - {x: 47, y: -15}
+        - {x: 28, y: 45}
+        - {x: -2, y: 62}
+    - name: Ghost-UnChain_00006
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 901
+        width: 137
+        height: 119
+      alignment: 9
+      pivot: {x: 0.6277372, y: 0.45378152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 65}
+        - {x: -54, y: 65}
+        - {x: -86, y: 51}
+        - {x: -86, y: 25}
+        - {x: -42, y: -37}
+        - {x: -9, y: -54}
+        - {x: 51, y: -54}
+        - {x: 51, y: -14}
+        - {x: 39, y: 51}
+    - name: Ghost-UnChain_00008
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 898
+        width: 134
+        height: 122
+      alignment: 9
+      pivot: {x: 0.6044776, y: 0.44262296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81, y: 68}
+        - {x: -81, y: -12}
+        - {x: -71, y: -54}
+        - {x: 35, y: -54}
+        - {x: 53, y: -48}
+        - {x: 53, y: -19}
+        - {x: 37, y: 48}
+        - {x: 4, y: 68}
+    - name: Ghost-UnChain_00010
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 896
+        width: 128
+        height: 124
+      alignment: 9
+      pivot: {x: 0.578125, y: 0.43548387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 70}
+        - {x: -74, y: 66}
+        - {x: -74, y: 40}
+        - {x: -46, y: -38}
+        - {x: -14, y: -54}
+        - {x: 40, y: -54}
+        - {x: 54, y: -48}
+        - {x: 54, y: -29}
+        - {x: 51, y: -16}
+        - {x: 32, y: 47}
+        - {x: 3, y: 70}
+    - name: Ghost-UnChain_00012
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 890
+        width: 122
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5409836, y: 0.41538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 76}
+        - {x: -66, y: 71}
+        - {x: -66, y: 53}
+        - {x: -42, y: 17}
+        - {x: -34, y: -28}
+        - {x: -28, y: -39}
+        - {x: -4, y: -54}
+        - {x: 56, y: -54}
+        - {x: 56, y: -5}
+        - {x: 37, y: 50}
+        - {x: 1, y: 74}
+        - {x: -34, y: 76}
+    - name: Ghost-UnChain_00014
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 747
+        width: 116
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38848922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 64}
+        - {x: -30, y: 83}
+        - {x: -32, y: 85}
+        - {x: -57, y: 85}
+        - {x: -58, y: 82}
+        - {x: -58, y: -13}
+        - {x: -23, y: -54}
+        - {x: 58, y: -54}
+        - {x: 58, y: -21}
+        - {x: 28, y: 46}
+        - {x: 3, y: 78}
+        - {x: -11, y: 75}
+    - name: Ghost-UnChain_00016
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 743
+        width: 114
+        height: 143
+      alignment: 9
+      pivot: {x: 0.45614034, y: 0.37062937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 48}
+        - {x: 12, y: 71}
+        - {x: -7, y: 84}
+        - {x: -13, y: 81}
+        - {x: -16, y: 76}
+        - {x: -22, y: 90}
+        - {x: -43, y: 90}
+        - {x: -52, y: 81}
+        - {x: -52, y: 24}
+        - {x: -45, y: -34}
+        - {x: -8, y: -53}
+        - {x: 53, y: -53}
+        - {x: 62, y: -51}
+        - {x: 62, y: -39}
+        - {x: 53, y: -21}
+    - name: Ghost-UnChain_00018
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 742
+        width: 124
+        height: 144
+      alignment: 9
+      pivot: {x: 0.44354838, y: 0.3472222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 25}
+        - {x: -38, y: -50}
+        - {x: 59, y: -50}
+        - {x: 69, y: -47}
+        - {x: 69, y: -28}
+        - {x: 9, y: 91}
+        - {x: -2, y: 94}
+        - {x: -40, y: 94}
+        - {x: -55, y: 59}
+    - name: Ghost-UnChain_00020
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 739
+        width: 125
+        height: 147
+      alignment: 9
+      pivot: {x: 0.368, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -9}
+        - {x: 21, y: -5}
+        - {x: 17, y: -4}
+        - {x: 20, y: -4}
+        - {x: 27, y: -11}
+        - {x: 34, y: -21}
+        - {x: 49, y: -30}
+        - {x: 65, y: -35}
+        - {x: 79, y: -34}
+        - {x: 79, y: -17}
+        - {x: 67, y: 7}
+        - {x: 3, y: 98}
+        - {x: -46, y: 98}
+        - {x: -46, y: -31}
+        - {x: -2, y: -49}
+        - {x: 23, y: -49}
+        - {x: 31, y: -40}
+        - {x: 29, y: -19}
+        - {x: 28, y: -13}
+    - name: Ghost-UnChain_00022
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 731
+        width: 143
+        height: 155
+      alignment: 9
+      pivot: {x: 0.37062937, y: 0.36774194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 85}
+        - {x: -3, y: 83}
+        - {x: -21, y: 77}
+        - {x: -13, y: 80}
+        - {x: -5, y: 85}
+        - {x: -15, y: 98}
+        - {x: -53, y: 98}
+        - {x: -53, y: -35}
+        - {x: -30, y: -52}
+        - {x: -7, y: -57}
+        - {x: 27, y: -57}
+        - {x: 37, y: -49}
+        - {x: 90, y: -13}
+        - {x: 90, y: 11}
+    - name: Ghost-UnChain_00024
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 721
+        width: 166
+        height: 165
+      alignment: 9
+      pivot: {x: 0.40361446, y: 0.3939394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 100}
+        - {x: -67, y: 96}
+        - {x: -67, y: -19}
+        - {x: -46, y: -65}
+        - {x: 47, y: -65}
+        - {x: 99, y: -18}
+        - {x: 99, y: 23}
+        - {x: -8, y: 100}
+    - name: Ghost-UnChain_00026
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 714
+        width: 172
+        height: 172
+      alignment: 9
+      pivot: {x: 0.41860464, y: 0.37790698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 107}
+        - {x: -72, y: -59}
+        - {x: -48, y: -65}
+        - {x: 27, y: -65}
+        - {x: 100, y: -20}
+        - {x: 100, y: 42}
+        - {x: 16, y: 107}
+    - name: Ghost-UnChain_00028
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 544
+        width: 167
+        height: 166
+      alignment: 9
+      pivot: {x: 0.4311377, y: 0.3493976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 108}
+        - {x: -72, y: 93}
+        - {x: -72, y: 32}
+        - {x: -49, y: -24}
+        - {x: -6, y: -58}
+        - {x: 19, y: -58}
+        - {x: 37, y: -52}
+        - {x: 95, y: -16}
+        - {x: 95, y: 45}
+        - {x: 26, y: 108}
+    - name: Ghost-UnChain_00030
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 542
+        width: 157
+        height: 168
+      alignment: 9
+      pivot: {x: 0.4713376, y: 0.2857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 60}
+        - {x: 19, y: 94}
+        - {x: -61, y: 94}
+        - {x: -74, y: 85}
+        - {x: -74, y: 26}
+        - {x: -45, y: -22}
+        - {x: -1, y: -48}
+        - {x: 33, y: -48}
+        - {x: 83, y: -4}
+        - {x: 83, y: 20}
+        - {x: 80, y: 26}
+      - - {x: -8, y: 120}
+        - {x: -8, y: 116}
+        - {x: -7, y: 115}
+        - {x: -4, y: 114}
+        - {x: -2, y: 114}
+        - {x: 1, y: 117}
+        - {x: 0, y: 120}
+    - name: Ghost-UnChain_00032
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 573
+        width: 152
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5394737, y: 0.3138686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -1}
+        - {x: 45, y: -9}
+        - {x: 70, y: -18}
+        - {x: 70, y: 34}
+        - {x: 46, y: 94}
+        - {x: -12, y: 94}
+        - {x: -22, y: 89}
+        - {x: -18, y: 74}
+        - {x: -7, y: 68}
+        - {x: -12, y: 70}
+        - {x: -23, y: 73}
+        - {x: -76, y: 77}
+        - {x: -82, y: 70}
+        - {x: -82, y: 30}
+        - {x: -38, y: -19}
+        - {x: -14, y: -36}
+        - {x: -4, y: -43}
+        - {x: 30, y: -43}
+        - {x: 35, y: -32}
+        - {x: 34, y: -13}
+        - {x: 32, y: -7}
+    - name: Ghost-UnChain_00034
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 569
+        width: 152
+        height: 141
+      alignment: 9
+      pivot: {x: 0.56578946, y: 0.28368795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 101}
+        - {x: -83, y: 64}
+        - {x: -86, y: 61}
+        - {x: -86, y: 35}
+        - {x: -27, y: -40}
+        - {x: 47, y: -40}
+        - {x: 66, y: -26}
+        - {x: 66, y: 52}
+        - {x: 7, y: 101}
+    - name: Ghost-UnChain_00036
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 563
+        width: 152
+        height: 147
+      alignment: 9
+      pivot: {x: 0.55921054, y: 0.26530612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 108}
+        - {x: -31, y: 90}
+        - {x: -32, y: 78}
+        - {x: -28, y: 74}
+        - {x: -83, y: 61}
+        - {x: -85, y: 59}
+        - {x: -85, y: 33}
+        - {x: -27, y: -39}
+        - {x: 44, y: -39}
+        - {x: 67, y: -3}
+        - {x: 67, y: 68}
+        - {x: 37, y: 108}
+    - name: Ghost-UnChain_00038
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 552
+        width: 153
+        height: 158
+      alignment: 9
+      pivot: {x: 0.54901963, y: 0.25316456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 118}
+        - {x: -2, y: 110}
+        - {x: -15, y: 113}
+        - {x: -44, y: 105}
+        - {x: -40, y: 92}
+        - {x: -37, y: 86}
+        - {x: -33, y: 86}
+        - {x: -39, y: 86}
+        - {x: -84, y: 69}
+        - {x: -84, y: 3}
+        - {x: -58, y: -40}
+        - {x: 30, y: -40}
+        - {x: 69, y: -2}
+        - {x: 69, y: 62}
+        - {x: 15, y: 118}
+      - - {x: -11, y: 94}
+        - {x: -8, y: 95}
+        - {x: -8, y: 98}
+        - {x: -11, y: 99}
+        - {x: -13, y: 97}
+      - - {x: -14, y: 118}
+        - {x: -14, y: 96}
+        - {x: -4, y: 96}
+        - {x: -3, y: 97}
+        - {x: -2, y: 100}
+        - {x: -2, y: 108}
+        - {x: -9, y: 118}
+    - name: Ghost-UnChain_00040
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 371
+        width: 149
+        height: 167
+      alignment: 9
+      pivot: {x: 0.557047, y: 0.24550898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.999992, y: 90}
+        - {x: 32.999992, y: 93}
+        - {x: 28.999992, y: 93}
+        - {x: 26.999992, y: 92}
+        - {x: 24.999992, y: 93}
+        - {x: 36.999992, y: 93}
+        - {x: 37.999992, y: 108}
+        - {x: 25.999992, y: 120}
+        - {x: 7.9999924, y: 120}
+        - {x: 0.9999924, y: 115}
+        - {x: 1.9999924, y: 106}
+        - {x: 2.9999924, y: 99}
+        - {x: 8.999992, y: 93}
+        - {x: 1.9999924, y: 99}
+        - {x: 0.9999924, y: 102}
+        - {x: -32.000008, y: 117}
+        - {x: -44.000008, y: 103}
+        - {x: -40.000008, y: 100}
+        - {x: -44.000008, y: 101}
+        - {x: -83.00001, y: 81}
+        - {x: -83.00001, y: 31}
+        - {x: -35.000008, y: -41}
+        - {x: 39.999992, y: -41}
+        - {x: 65.99999, y: 10}
+        - {x: 65.99999, y: 67}
+        - {x: 63.999992, y: 69}
+      - - {x: -16.000008, y: 113}
+        - {x: -16.000008, y: 105}
+        - {x: -10.000008, y: 100}
+        - {x: -4.0000076, y: 100}
+        - {x: -3.0000076, y: 101}
+        - {x: -3.0000076, y: 110}
+        - {x: -9.000008, y: 113}
+      - - {x: -46.000008, y: 106}
+        - {x: -45.000008, y: 103}
+        - {x: -42.000008, y: 103}
+        - {x: -40.000008, y: 105}
+        - {x: -41.000008, y: 108}
+        - {x: -44.000008, y: 108}
+      - - {x: -20.000008, y: 107}
+        - {x: -17.000008, y: 108}
+        - {x: -17.000008, y: 111}
+        - {x: -20.000008, y: 112}
+        - {x: -22.000008, y: 110}
+      - - {x: -5.0000076, y: 112}
+        - {x: -3.0000076, y: 110}
+        - {x: -0.0000076293945, y: 111}
+        - {x: -0.0000076293945, y: 114}
+        - {x: -2.0000076, y: 116}
+        - {x: -5.0000076, y: 115}
+      - - {x: -16.000008, y: 126}
+        - {x: -16.000008, y: 117}
+        - {x: -13.000008, y: 116}
+        - {x: -11.000008, y: 116}
+        - {x: -9.000008, y: 118}
+        - {x: -10.000008, y: 124}
+        - {x: -12.000008, y: 126}
+      - - {x: 4.9999924, y: 126}
+        - {x: 4.9999924, y: 118}
+        - {x: 9.999992, y: 118}
+        - {x: 10.999992, y: 119}
+        - {x: 11.999992, y: 121}
+        - {x: 11.999992, y: 126}
+    - name: Ghost-UnChain_00042
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 360
+        width: 141
+        height: 178
+      alignment: 9
+      pivot: {x: 0.58156025, y: 0.24157304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 123}
+        - {x: 4, y: 123}
+        - {x: 1, y: 113}
+        - {x: 6, y: 103}
+        - {x: 12, y: 96}
+        - {x: 14, y: 97}
+        - {x: 20, y: 87}
+        - {x: 24, y: 86}
+        - {x: 20, y: 87}
+        - {x: 18, y: 90}
+        - {x: 16, y: 92}
+        - {x: 14, y: 92}
+        - {x: 12, y: 90}
+        - {x: 12, y: 89}
+        - {x: 12, y: 91}
+        - {x: 9, y: 96}
+        - {x: 4, y: 102}
+        - {x: -3, y: 99}
+        - {x: -20, y: 93}
+        - {x: -23, y: 90}
+        - {x: -21, y: 96}
+        - {x: -21, y: 98}
+        - {x: -23, y: 100}
+        - {x: -26, y: 100}
+        - {x: -23, y: 100}
+        - {x: -20, y: 102}
+        - {x: -22, y: 123}
+        - {x: -23, y: 123}
+        - {x: -67, y: 89}
+        - {x: -54, y: 77}
+        - {x: -50, y: 73}
+        - {x: -46, y: 73}
+        - {x: -55, y: 70}
+        - {x: -53, y: 63}
+        - {x: -44, y: 62}
+        - {x: -38, y: 61}
+        - {x: -37, y: 59}
+        - {x: -38, y: 60}
+        - {x: -43, y: 61}
+        - {x: -45, y: 59}
+        - {x: -61, y: 58}
+        - {x: -79, y: 52}
+        - {x: -82, y: 47}
+        - {x: -82, y: 36}
+        - {x: -33, y: -41}
+        - {x: -24, y: -43}
+        - {x: 33, y: -43}
+        - {x: 41, y: -34}
+        - {x: 59, y: 11}
+        - {x: 59, y: 69}
+      - - {x: -55, y: 71}
+        - {x: -52, y: 72}
+        - {x: -52, y: 75}
+        - {x: -55, y: 76}
+        - {x: -57, y: 74}
+      - - {x: 38, y: 81}
+        - {x: 39, y: 78}
+        - {x: 45, y: 78}
+        - {x: 47, y: 80}
+        - {x: 46, y: 83}
+        - {x: 40, y: 83}
+      - - {x: 38, y: 88}
+        - {x: 38, y: 86}
+        - {x: 40, y: 84}
+        - {x: 42, y: 84}
+        - {x: 45, y: 87}
+        - {x: 44, y: 90}
+        - {x: 40, y: 90}
+      - - {x: -49, y: 94}
+        - {x: -50, y: 91}
+        - {x: -47, y: 88}
+        - {x: -45, y: 88}
+        - {x: -43, y: 90}
+        - {x: -43, y: 91}
+        - {x: -46, y: 94}
+      - - {x: -51, y: 103}
+        - {x: -55, y: 98}
+        - {x: -55, y: 96}
+        - {x: -54, y: 94}
+        - {x: -42, y: 94}
+        - {x: -41, y: 97}
+        - {x: -42, y: 100}
+        - {x: -49, y: 103}
+      - - {x: 29, y: 104}
+        - {x: 29, y: 100}
+        - {x: 31, y: 96}
+        - {x: 36, y: 96}
+        - {x: 43, y: 99}
+        - {x: 43, y: 101}
+        - {x: 40, y: 107}
+        - {x: 34, y: 107}
+      - - {x: -45, y: 109}
+        - {x: -47, y: 107}
+        - {x: -47, y: 105}
+        - {x: -44, y: 103}
+        - {x: -38, y: 102}
+        - {x: -37, y: 102}
+        - {x: -34, y: 104}
+        - {x: -34, y: 106}
+        - {x: -35, y: 109}
+      - - {x: -9, y: 106}
+        - {x: -7, y: 104}
+        - {x: -4, y: 105}
+        - {x: -4, y: 110}
+        - {x: -6, y: 112}
+        - {x: -9, y: 111}
+      - - {x: -51, y: 108}
+        - {x: -48, y: 109}
+        - {x: -48, y: 112}
+        - {x: -51, y: 113}
+        - {x: -53, y: 111}
+      - - {x: -35, y: 119}
+        - {x: -36, y: 117}
+        - {x: -36, y: 115}
+        - {x: -34, y: 111}
+        - {x: -30, y: 111}
+        - {x: -28, y: 112}
+        - {x: -28, y: 116}
+        - {x: -33, y: 119}
+      - - {x: -17, y: 114}
+        - {x: -16, y: 112}
+        - {x: -14, y: 112}
+        - {x: -9, y: 114}
+        - {x: -9, y: 117}
+        - {x: -10, y: 119}
+        - {x: -15, y: 119}
+        - {x: -17, y: 117}
+      - - {x: -24, y: 113}
+        - {x: -21, y: 114}
+        - {x: -21, y: 117}
+        - {x: -24, y: 118}
+        - {x: -26, y: 116}
+      - - {x: 23, y: 126}
+        - {x: 20, y: 120}
+        - {x: 20, y: 118}
+        - {x: 22, y: 117}
+        - {x: 25, y: 117}
+        - {x: 28, y: 120}
+        - {x: 28, y: 124}
+        - {x: 27, y: 126}
+      - - {x: -17, y: 127}
+        - {x: -14, y: 124}
+        - {x: -11, y: 125}
+        - {x: -11, y: 130}
+        - {x: -14, y: 134}
+        - {x: -17, y: 133}
+      - - {x: 9, y: 135}
+        - {x: 8, y: 132}
+        - {x: 8, y: 126}
+        - {x: 11, y: 126}
+        - {x: 15, y: 128}
+        - {x: 15, y: 133}
+        - {x: 13, y: 135}
+    - name: Ghost-UnChain_00044
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 403
+        width: 132
+        height: 135
+      alignment: 9
+      pivot: {x: 0.6136364, y: 0.34074074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81, y: 89}
+        - {x: -81, y: -11}
+        - {x: -63, y: -46}
+        - {x: 41, y: -46}
+        - {x: 51, y: -12}
+        - {x: 51, y: 89}
+    - name: Ghost-UnChain_00046
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 400
+        width: 128
+        height: 138
+      alignment: 9
+      pivot: {x: 0.6328125, y: 0.36956522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 87}
+        - {x: -81, y: 57}
+        - {x: -81, y: 0}
+        - {x: -27, y: -51}
+        - {x: 47, y: -51}
+        - {x: 47, y: 87}
+    - name: Ghost-UnChain_00048
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 398
+        width: 135
+        height: 140
+      alignment: 9
+      pivot: {x: 0.6, y: 0.41428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 82}
+        - {x: -32, y: 69}
+        - {x: -37, y: 44}
+        - {x: -65, y: 48}
+        - {x: -81, y: 42}
+        - {x: -81, y: 4}
+        - {x: -26, y: -58}
+        - {x: 15, y: -58}
+        - {x: 42, y: -47}
+        - {x: 54, y: 10}
+        - {x: 54, y: 61}
+        - {x: 47, y: 82}
+    - name: Ghost-UnChain_00050
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 397
+        width: 153
+        height: 141
+      alignment: 9
+      pivot: {x: 0.49019608, y: 0.4609929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 76}
+        - {x: -75, y: 30}
+        - {x: -75, y: 2}
+        - {x: -48, y: -30}
+        - {x: -37, y: -19}
+        - {x: -39, y: -14}
+        - {x: -33, y: -8}
+        - {x: -37, y: -22}
+        - {x: -50, y: -52}
+        - {x: -24, y: -65}
+        - {x: 45, y: -65}
+        - {x: 46, y: -64}
+        - {x: 78, y: 27}
+        - {x: 78, y: 76}
+    - name: Ghost-UnChain_00052
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 212
+        width: 158
+        height: 144
+      alignment: 9
+      pivot: {x: 0.47468355, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 72}
+        - {x: -71, y: 27}
+        - {x: -75, y: 21}
+        - {x: -75, y: -18}
+        - {x: -67, y: -36}
+        - {x: -51, y: -35}
+        - {x: -48, y: -31}
+        - {x: -39, y: -56}
+        - {x: -18, y: -72}
+        - {x: 42, y: -72}
+        - {x: 83, y: 26}
+        - {x: 83, y: 63}
+        - {x: 44, y: 72}
+    - name: Ghost-UnChain_00054
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 206
+        width: 161
+        height: 150
+      alignment: 9
+      pivot: {x: 0.47204968, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 69}
+        - {x: -69, y: 21}
+        - {x: -76, y: 5}
+        - {x: -76, y: -25}
+        - {x: -66, y: -48}
+        - {x: -55, y: -45}
+        - {x: -53, y: -39}
+        - {x: -46, y: -61}
+        - {x: -15, y: -81}
+        - {x: 53, y: -81}
+        - {x: 85, y: 16}
+        - {x: 85, y: 49}
+        - {x: 32, y: 69}
+    - name: Ghost-UnChain_00056
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 192
+        width: 165
+        height: 164
+      alignment: 9
+      pivot: {x: 0.46060607, y: 0.56707317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: -41}
+        - {x: -73, y: -51}
+        - {x: -62, y: -53}
+        - {x: -56, y: -49}
+        - {x: -27, y: -78}
+        - {x: -2, y: -80}
+        - {x: 6, y: -73}
+        - {x: 9, y: -93}
+        - {x: 42, y: -93}
+        - {x: 89, y: -21}
+        - {x: 89, y: 56}
+        - {x: 36, y: 71}
+        - {x: -2, y: 71}
+        - {x: -68, y: 9}
+        - {x: -76, y: -7}
+    - name: Ghost-UnChain_00058
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 185
+        width: 166
+        height: 171
+      alignment: 9
+      pivot: {x: 0.45180723, y: 0.57309943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 73}
+        - {x: 6, y: 73}
+        - {x: -72, y: -2}
+        - {x: -75, y: -14}
+        - {x: -75, y: -39}
+        - {x: -71, y: -45}
+        - {x: -68, y: -43}
+        - {x: -66, y: -42}
+        - {x: -68, y: -43}
+        - {x: -71, y: -51}
+        - {x: -59, y: -63}
+        - {x: 11, y: -98}
+        - {x: 39, y: -98}
+        - {x: 91, y: 27}
+        - {x: 91, y: 41}
+    - name: Ghost-UnChain_00060
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 183
+        width: 167
+        height: 173
+      alignment: 9
+      pivot: {x: 0.4550898, y: 0.5780347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80, y: 45}
+        - {x: 25, y: 73}
+        - {x: 14, y: 73}
+        - {x: -76, y: 27}
+        - {x: -76, y: -100}
+        - {x: 38, y: -100}
+        - {x: 41, y: -44}
+        - {x: 91, y: 34}
+        - {x: 91, y: 40}
+    - name: Ghost-UnChain_00062
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 183
+        width: 169
+        height: 173
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5780347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 73}
+        - {x: -78, y: -9}
+        - {x: -78, y: -50}
+        - {x: -69, y: -60}
+        - {x: 2, y: -100}
+        - {x: 46, y: -100}
+        - {x: 91, y: 29}
+        - {x: 91, y: 44}
+        - {x: 51, y: 73}
+    - name: Ghost-UnChain_00064
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 170
+        height: 173
+      alignment: 9
+      pivot: {x: 0.46470588, y: 0.5780347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 73}
+        - {x: -79, y: 3}
+        - {x: -79, y: -100}
+        - {x: 40, y: -100}
+        - {x: 91, y: -56}
+        - {x: 91, y: 73}
+    - name: Ghost-UnChain_00066
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 6
+        width: 171
+        height: 173
+      alignment: 9
+      pivot: {x: 0.46783626, y: 0.5780347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 73}
+        - {x: 3, y: 73}
+        - {x: -80, y: -9}
+        - {x: -80, y: -65}
+        - {x: -55, y: -91}
+        - {x: -10, y: -100}
+        - {x: 38, y: -100}
+        - {x: 43, y: -78}
+        - {x: 91, y: 21}
+        - {x: 91, y: 45}
+    - name: Ghost-UnChain_00068
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 6
+        width: 173
+        height: 173
+      alignment: 9
+      pivot: {x: 0.47398844, y: 0.5780347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 73}
+        - {x: -82, y: 10}
+        - {x: -82, y: -52}
+        - {x: -27, y: -95}
+        - {x: -7, y: -100}
+        - {x: 56, y: -100}
+        - {x: 91, y: 17}
+        - {x: 91, y: 46}
+        - {x: 62, y: 73}
+    - name: Ghost-UnChain_00070
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 5
+        width: 175
+        height: 174
+      alignment: 9
+      pivot: {x: 0.47428572, y: 0.59770113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -75}
+        - {x: 92, y: 31}
+        - {x: 92, y: 41}
+        - {x: 37, y: 70}
+        - {x: 4, y: 70}
+        - {x: -83, y: -9}
+        - {x: -83, y: -35}
+        - {x: -48, y: -90}
+        - {x: -11, y: -104}
+        - {x: 32, y: -104}
+        - {x: 41, y: -98}
+        - {x: 38, y: -87}
+        - {x: 36, y: -85}
+        - {x: 39, y: -80}
+    - name: Ghost-UnChain_00072
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 5
+        width: 174
+        height: 174
+      alignment: 9
+      pivot: {x: 0.4770115, y: 0.61494255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: 39}
+        - {x: 37, y: 67}
+        - {x: -6, y: 67}
+        - {x: -83, y: -9}
+        - {x: -83, y: -40}
+        - {x: -51, y: -75}
+        - {x: 11, y: -107}
+        - {x: 52, y: -107}
+        - {x: 91, y: -3}
+        - {x: 91, y: 37}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
