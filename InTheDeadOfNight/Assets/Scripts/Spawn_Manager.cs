@@ -25,32 +25,32 @@ public class Spawn_Manager : MonoBehaviour
                 //Left side
                 if (SpawnPos == 1)
                 {
-                    float randomy = Random.Range(-5.0f, 5.0f);
-                    Instantiate(EnemyPrefab, new Vector3(-15.5f, randomy, 0), Quaternion.identity);
+                    float randomy = Random.Range(-1.3f, 1.35f);
+                    Instantiate(EnemyPrefab, new Vector3(-2.8f, randomy, 0), Quaternion.identity);
                     yield return new WaitForSeconds(SpawnTime);
                 }
 
                 //Right side
                 else if (SpawnPos == 2)
                 {
-                    float randomy = Random.Range(-5.0f, 5.0f);
-                    Instantiate(EnemyPrefab, new Vector3(15.5f, randomy, 0), Quaternion.identity);
+                    float randomy = Random.Range(-1.3f, 1.35f);
+                    Instantiate(EnemyPrefab, new Vector3(2.8f, randomy, 0), Quaternion.identity);
                     yield return new WaitForSeconds(SpawnTime);
                 }
 
                 //Top
                 else if (SpawnPos == 3)
                 {
-                    float randomx = Random.Range(-15.5f, 15.5f);
-                    Instantiate(EnemyPrefab, new Vector3(randomx, 5.0f, 0), Quaternion.identity);
+                    float randomx = Random.Range(-2.8f, 2.8f);
+                    Instantiate(EnemyPrefab, new Vector3(randomx, 1.35f, 0), Quaternion.identity);
                     yield return new WaitForSeconds(SpawnTime);
                 }
 
                 //Bottom
                 else if (SpawnPos == 4)
                 {
-                    float randomx = Random.Range(-15.5f, 15.5f);
-                    Instantiate(EnemyPrefab, new Vector3(randomx, -5.5f, 0), Quaternion.identity);
+                    float randomx = Random.Range(-2.8f, 2.8f);
+                    Instantiate(EnemyPrefab, new Vector3(randomx, -1.3f, 0), Quaternion.identity);
                     yield return new WaitForSeconds(SpawnTime);
                 }
         }
