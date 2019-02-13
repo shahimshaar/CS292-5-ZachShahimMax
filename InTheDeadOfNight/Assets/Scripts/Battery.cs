@@ -20,6 +20,7 @@ public class Battery : MonoBehaviour
         {
             playerObject.GetComponent<Player>().Battery();
             Destroy(this.gameObject);
+            Destroy(other.gameObject);
         }
     }
 }

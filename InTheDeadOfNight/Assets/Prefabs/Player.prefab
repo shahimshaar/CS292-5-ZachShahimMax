@@ -53,6 +53,7 @@ MonoBehaviour:
   Health: 100
   Darkness: 0
   aDam: 0
+  bulletPrefab: {fileID: 0}
 --- !u!212 &1238871394835602309
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -137,7 +138,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.3
+  m_Radius: 0.5
 --- !u!111 &3739565097139357426
 Animation:
   m_ObjectHideFlags: 0

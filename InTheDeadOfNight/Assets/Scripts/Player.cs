@@ -7,13 +7,11 @@ public class Player : MonoBehaviour
     private GameObject EnemyGameObject;
     public GameObject[] enemies;
     public GameObject AttackPrefab;
+    private UI_Manager uimanager;
     public int Health = 100;
     public int Darkness = 0;
-    private const float CriticalArea = .15f;
-    private UI_Manager uimanager;
+    private const float CriticalArea = .5f;
     public bool aDam = false;
-
-    public GameObject bulletPrefab;
     private float speed = 20.0f;
 
     void Start()
@@ -45,7 +43,7 @@ public class Player : MonoBehaviour
             Vector2 myPos = new Vector2(transform.position.x, transform.position.y + .203f);
             Vector2 direction = target - myPos;
             direction.Normalize();
-            GameObject projectile = (GameObject)Instantiate(bulletPrefab, myPos, Quaternion.identity);
+            GameObject projectile = (GameObject)Instantiate(AttackPrefab, myPos, Quaternion.identity);
             projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
         }
     }

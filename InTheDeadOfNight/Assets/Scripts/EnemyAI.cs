@@ -73,10 +73,10 @@ public class EnemyAI : MonoBehaviour
 
         if (other.tag == "Projectile")
         {
-            int SpawnBat = Random.Range(1, 10);
+            int SpawnBat = Random.Range(1, 100);
             Vector2 myPos = new Vector2(transform.position.x, transform.position.y + .203f);
 
-            if (SpawnBat == 1)
+            if (SpawnBat == 25)
             {
                 Instantiate(BatteryPrefab, myPos, Quaternion.identity);
             }
