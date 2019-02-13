@@ -6,10 +6,15 @@ public class Player : MonoBehaviour
 {
     private GameObject EnemyGameObject;
     public GameObject[] enemies;
+    public GameObject AttackPrefab;
     public int Health = 100;
     public int Darkness = 0;
     private const float CriticalArea = .15f;
     private UI_Manager uimanager;
+    public bool aDam = false;
+
+    public GameObject bulletPrefab;
+    private float speed = 20.0f;
 
     void Start()
     {
@@ -28,7 +33,21 @@ public class Player : MonoBehaviour
         Death();
         DarknessMeter();
         Lightmeter();
-        Debug.Log("Health: " + Health);
+        Shoot();
+    }
+
+    private void Shoot()
+    {
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector2 target = Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
+            Vector2 myPos = new Vector2(transform.position.x, transform.position.y + .203f);
+            Vector2 direction = target - myPos;
+            direction.Normalize();
+            GameObject projectile = (GameObject)Instantiate(bulletPrefab, myPos, Quaternion.identity);
+            projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
+        }
     }
 
     void DarknessMeter()
@@ -46,22 +65,22 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void Damage()
     {
-        if (other.tag == "Enemy")
-        {
-            Health--;
-        }
+        Health--;
+    }
 
-        if (Health % 5 == 0)
+    public void Battery()
+    {
+        Health += 20;
+
+        if (Health > 100)
         {
-            uimanager.UpdateLight(Health / 5);
+            Health = 100;
         }
     }
 
-
-
-void Death()
+    void Death()
     {
         if (Darkness == 100)
         {

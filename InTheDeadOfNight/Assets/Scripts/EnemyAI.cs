@@ -6,9 +6,12 @@ public class EnemyAI : MonoBehaviour
 {
     private const float CriticalArea = .15f;
     private GameObject playerObject;
+    public GameObject BatteryPrefab;
     private Player player;
     private UI_Manager uimanager;
     private SpriteRenderer spriteRenderer;
+    public bool isDam = false;
+    float DamageRate = 1.0f;
 
     void Awake()
     {
@@ -29,7 +32,6 @@ public class EnemyAI : MonoBehaviour
         PowerUp2();
         PowerUp3();
         Flip();
-
     }
 
 
@@ -61,6 +63,38 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            isDam = true;
+            StartCoroutine(Damage());
+        }
+
+        if (other.tag == "Projectile")
+        {
+            int SpawnBat = Random.Range(1, 10);
+            Vector2 myPos = new Vector2(transform.position.x, transform.position.y + .203f);
+
+            if (SpawnBat == 1)
+            {
+                Instantiate(BatteryPrefab, myPos, Quaternion.identity);
+            }
+
+            Destroy(this.gameObject);
+            Destroy(other.gameObject);
+        }
+    }
+
+    IEnumerator Damage()
+    {
+        while (isDam == true)
+        {
+            playerObject.GetComponent<Player>().Damage();
+            yield return new WaitForSeconds(DamageRate);
+        }
+    }
+
 
     void PowerUp2()
     {
@@ -81,14 +115,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (Input.GetKeyDown("d"))
         {
-            //Setting up the critical area
-            Vector3 distanceToPlayer = playerObject.transform.position - this.transform.position;
-
-            //Destroys enemies in critical area
-            if (distanceToPlayer.sqrMagnitude <= CriticalArea || distanceToPlayer.sqrMagnitude >= CriticalArea)
-            {
                 Destroy(this.gameObject);
-            }
         }
     }
 
