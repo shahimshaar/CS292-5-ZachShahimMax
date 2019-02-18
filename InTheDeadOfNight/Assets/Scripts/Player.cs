@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
         Death();
         DarknessMeter();
         Lightmeter();
+        Rotate();
         Shoot();
     }
 
@@ -46,6 +47,19 @@ public class Player : MonoBehaviour
             GameObject projectile = (GameObject)Instantiate(AttackPrefab, myPos, Quaternion.identity);
             projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
         }
+    }
+
+    private void Rotate()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 vectorToTarget = mouse - transform.position;
+            float angle = (Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg) - 90;
+            Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * 2000000);
+        }
+
     }
 
     void DarknessMeter()
