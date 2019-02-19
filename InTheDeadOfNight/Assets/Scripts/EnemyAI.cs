@@ -31,6 +31,7 @@ public class EnemyAI : MonoBehaviour
         Movement();
         PowerUp2();
         PowerUp3();
+        PowerUpX();
         Flip();
     }
 
@@ -92,6 +93,14 @@ public class EnemyAI : MonoBehaviour
         {
             playerObject.GetComponent<Player>().Damage();
             yield return new WaitForSeconds(DamageRate);
+        }
+    }
+
+    void PowerUpX()
+    {
+        if (Input.GetKeyDown("x"))
+        {
+            Time.timeScale = 0.5f;
         }
     }
 
