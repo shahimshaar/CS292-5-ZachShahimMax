@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 0f324e98b439fbf4b950b2b607132ce0
+timeCreated: 1464013804
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ghost_Idle_0000
+    21300002: Ghost_Idle_0004
+    21300004: Ghost_Idle_0008
+    21300006: Ghost_Idle_0012
+    21300008: Ghost_Idle_0016
+    21300010: Ghost_Idle_0020
+    21300012: Ghost_Idle_0024
+    21300014: Ghost_Idle_0028
+    21300016: Ghost_Idle_0032
+    21300018: Ghost_Idle_0036
+    21300020: Ghost_Idle_0040
+    21300022: Ghost_Idle_0044
+    21300024: Ghost_Idle_0048
+    21300026: Ghost_Idle_0052
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ghost_Idle_0000
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 164
+        width: 113
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4159292, y: 0.4021739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 55}
+        - {x: 9, y: 55}
+        - {x: -36, y: 31}
+        - {x: -47, y: 19}
+        - {x: -47, y: -1}
+        - {x: -23, y: -37}
+        - {x: 29, y: -37}
+        - {x: 66, y: 25}
+        - {x: 66, y: 35}
+        - {x: 62, y: 47}
+      - - {x: -47, y: 2}
+        - {x: -47, y: -10}
+        - {x: -42, y: -10}
+        - {x: -36, y: -7}
+        - {x: -36, y: -2}
+        - {x: -41, y: 2}
+    - name: Ghost_Idle_0004
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 174
+        width: 116
+        height: 82
+      alignment: 9
+      pivot: {x: 0.45689654, y: 0.46341464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53, y: 43}
+        - {x: -53, y: 7}
+        - {x: -6, y: -38}
+        - {x: 29, y: -38}
+        - {x: 62, y: 6}
+        - {x: 62, y: 43}
+      - - {x: 55, y: 7}
+        - {x: 51, y: 7}
+        - {x: 41, y: -6}
+        - {x: 36, y: -14}
+        - {x: 36, y: -31}
+        - {x: 39, y: -38}
+        - {x: 63, y: -38}
+        - {x: 63, y: 6}
+      - - {x: 59, y: 34}
+        - {x: 57, y: 29}
+        - {x: 57, y: 23}
+        - {x: 61, y: 16}
+        - {x: 63, y: 16}
+        - {x: 63, y: 35}
+        - {x: 61, y: 35}
+    - name: Ghost_Idle_0008
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 14
+        width: 104
+        height: 83
+      alignment: 9
+      pivot: {x: 0.48076922, y: 0.44578314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -4}
+        - {x: 33, y: -21}
+        - {x: 54, y: -15}
+        - {x: 54, y: 6}
+        - {x: 53, y: 10}
+        - {x: 23, y: 46}
+        - {x: -50, y: 46}
+        - {x: -50, y: 23}
+        - {x: -23, y: -26}
+        - {x: -1, y: -37}
+        - {x: 23, y: -37}
+        - {x: 28, y: -29}
+        - {x: 24, y: -11}
+        - {x: 21, y: -7}
+      - - {x: 12, y: 46}
+        - {x: 12, y: 34}
+        - {x: 20, y: 22}
+        - {x: 44, y: 22}
+        - {x: 53, y: 25}
+        - {x: 54, y: 27}
+        - {x: 54, y: 46}
+      - - {x: -47, y: 46}
+        - {x: -47, y: 41}
+        - {x: -14, y: 41}
+        - {x: -11, y: 43}
+        - {x: -11, y: 46}
+    - name: Ghost_Idle_0012
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 8
+        width: 87
+        height: 90
+      alignment: 9
+      pivot: {x: 0.43678162, y: 0.42222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 52}
+        - {x: -9, y: 49}
+        - {x: -25, y: 52}
+        - {x: -38, y: 52}
+        - {x: -38, y: 20}
+        - {x: -36, y: 11}
+        - {x: -21, y: -38}
+        - {x: 49, y: -38}
+        - {x: 49, y: -11}
+        - {x: 20, y: 52}
+    - name: Ghost_Idle_0016
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 45
+        width: 80
+        height: 97
+      alignment: 9
+      pivot: {x: 0.4125, y: 0.36082473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 15}
+        - {x: 23, y: 26}
+        - {x: 24, y: 17}
+        - {x: 32, y: 9}
+        - {x: 38, y: 5}
+        - {x: 42, y: 4}
+        - {x: 47, y: 3}
+        - {x: 47, y: 62}
+        - {x: -33, y: 62}
+        - {x: -33, y: 4}
+        - {x: -25, y: -23}
+        - {x: -2, y: -35}
+        - {x: 47, y: -35}
+        - {x: 47, y: -23}
+        - {x: 45, y: -12}
+      - - {x: -33, y: 62}
+        - {x: -33, y: 54}
+        - {x: -31, y: 54}
+        - {x: -25, y: 60}
+        - {x: -25, y: 62}
+    - name: Ghost_Idle_0020
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 118
+        width: 91
+        height: 99
+      alignment: 9
+      pivot: {x: 0.34065935, y: 0.34343433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -32}
+        - {x: -29, y: -34}
+        - {x: -11, y: -34}
+        - {x: -12, y: -28}
+        - {x: -13, y: -24}
+        - {x: -25, y: -24}
+        - {x: -31, y: -26}
+      - - {x: 60, y: -14}
+        - {x: 60, y: 65}
+        - {x: 22, y: 65}
+        - {x: 20, y: 56}
+        - {x: 5, y: 65}
+        - {x: -18, y: 65}
+        - {x: -25, y: 62}
+        - {x: -31, y: 48}
+        - {x: -31, y: -26}
+        - {x: -3, y: -34}
+        - {x: 33, y: -34}
+        - {x: 60, y: -26}
+        - {x: 60, y: -21}
+        - {x: 58, y: -18}
+      - - {x: 38, y: -24}
+        - {x: 31, y: -27}
+        - {x: 24, y: -32}
+        - {x: 24, y: -34}
+        - {x: 44, y: -34}
+        - {x: 48, y: -31}
+        - {x: 48, y: -25}
+        - {x: 46, y: -24}
+      - - {x: -31, y: 65}
+        - {x: -31, y: 59}
+        - {x: -23, y: 61}
+        - {x: -20, y: 64}
+        - {x: -20, y: 65}
+    - name: Ghost_Idle_0024
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 113
+        height: 111
+      alignment: 9
+      pivot: {x: 0.33628318, y: 0.4144144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 65}
+        - {x: -38, y: -46}
+        - {x: 48, y: -46}
+        - {x: 75, y: -3}
+        - {x: 75, y: 65}
+    - name: Ghost_Idle_0028
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.38392857, y: 0.41346154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 61}
+        - {x: -43, y: 61}
+        - {x: -43, y: 2}
+        - {x: -7, y: -43}
+        - {x: 22, y: -43}
+        - {x: 29, y: -31}
+        - {x: 24, y: -15}
+        - {x: 21, y: -12}
+        - {x: 16, y: -6}
+        - {x: 27, y: 2}
+        - {x: 36, y: 0}
+        - {x: 50, y: 0}
+        - {x: 24, y: 0}
+        - {x: 20, y: -9}
+        - {x: 54, y: -43}
+        - {x: 69, y: -43}
+        - {x: 69, y: 13}
+        - {x: 63, y: 33}
+      - - {x: 51, y: 45}
+        - {x: 51, y: 34}
+        - {x: 63, y: 20}
+        - {x: 69, y: 20}
+        - {x: 69, y: 50}
+        - {x: 62, y: 50}
+        - {x: 55, y: 49}
+    - name: Ghost_Idle_0032
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 169
+        width: 96
+        height: 87
+      alignment: 9
+      pivot: {x: 0.44791666, y: 0.35632184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 56}
+        - {x: -43, y: 3}
+        - {x: -37, y: -31}
+        - {x: 33, y: -31}
+        - {x: 50, y: -29}
+        - {x: 53, y: -25}
+        - {x: 53, y: 39}
+        - {x: 9, y: 56}
+      - - {x: -37, y: 29}
+        - {x: -41, y: 29}
+        - {x: -43, y: 28}
+        - {x: -43, y: 7}
+        - {x: -40, y: 7}
+        - {x: -35, y: 17}
+        - {x: -35, y: 24}
+    - name: Ghost_Idle_0036
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 42
+        width: 94
+        height: 85
+      alignment: 9
+      pivot: {x: 0.4574468, y: 0.31764707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 58}
+        - {x: -43, y: 16}
+        - {x: -30, y: -21}
+        - {x: -18, y: -27}
+        - {x: 30, y: -27}
+        - {x: 51, y: -13}
+        - {x: 51, y: 34}
+        - {x: 39, y: 58}
+      - - {x: -23, y: 58}
+        - {x: -23, y: 53}
+        - {x: -6, y: 48}
+        - {x: 4, y: 48}
+        - {x: 11, y: 56}
+        - {x: 11, y: 58}
+    - name: Ghost_Idle_0040
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 165
+        width: 99
+        height: 91
+      alignment: 9
+      pivot: {x: 0.47474748, y: 0.31868133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 62}
+        - {x: -47, y: -29}
+        - {x: 36, y: -29}
+        - {x: 52, y: 5}
+        - {x: 52, y: 62}
+      - - {x: -47, y: 28}
+        - {x: -44, y: 29}
+        - {x: -43, y: 33}
+        - {x: -46, y: 36}
+        - {x: -47, y: 36}
+    - name: Ghost_Idle_0044
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 94
+        width: 88
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5681818, y: 0.31111112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: -19}
+        - {x: -50, y: -28}
+        - {x: -42, y: -28}
+        - {x: -41, y: -27}
+        - {x: -41, y: -23}
+        - {x: -42, y: -20}
+      - - {x: -37, y: -27}
+        - {x: -37, y: -28}
+        - {x: -24, y: -28}
+        - {x: -24, y: -27}
+        - {x: -28, y: -24}
+        - {x: -34, y: -24}
+      - - {x: -9, y: 62}
+        - {x: -13, y: 58}
+        - {x: -23, y: 62}
+        - {x: -50, y: 62}
+        - {x: -50, y: 33}
+        - {x: -15, y: -28}
+        - {x: 34, y: -28}
+        - {x: 38, y: -18}
+        - {x: 38, y: 62}
+      - - {x: -50, y: 15}
+        - {x: -50, y: 5}
+        - {x: -46, y: 5}
+        - {x: -44, y: 7}
+        - {x: -45, y: 11}
+        - {x: -49, y: 15}
+    - name: Ghost_Idle_0048
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 83
+        width: 92
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5652174, y: 0.34042552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -27}
+        - {x: -3, y: -32}
+        - {x: 27, y: -32}
+        - {x: 40, y: 5}
+        - {x: 40, y: 59}
+        - {x: 30, y: 62}
+        - {x: -21, y: 62}
+        - {x: -52, y: 39}
+        - {x: -52, y: -32}
+        - {x: -16, y: -32}
+        - {x: -20, y: -20}
+        - {x: -20, y: -9}
+        - {x: -19, y: -18}
+      - - {x: 27, y: 7}
+        - {x: 27, y: -6}
+        - {x: 37, y: -15}
+        - {x: 40, y: -15}
+        - {x: 40, y: 13}
+        - {x: 33, y: 13}
+      - - {x: 6, y: 60}
+        - {x: 6, y: 62}
+        - {x: 1, y: 62}
+        - {x: 3, y: 59}
+    - name: Ghost_Idle_0052
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 73
+        width: 112
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.36956522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 11}
+        - {x: -52, y: 11}
+        - {x: -52, y: -34}
+        - {x: -13, y: -34}
+        - {x: -13, y: -31}
+        - {x: -24, y: -13}
+      - - {x: 53, y: 58}
+        - {x: -28, y: 58}
+        - {x: -52, y: 32}
+        - {x: -52, y: 2}
+        - {x: -27, y: -27}
+        - {x: -8, y: -34}
+        - {x: 30, y: -34}
+        - {x: 60, y: 27}
+        - {x: 60, y: 49}
+        - {x: 57, y: 57}
+      - - {x: 54, y: 10}
+        - {x: 52, y: 2}
+        - {x: 52, y: -4}
+        - {x: 54, y: -8}
+        - {x: 59, y: -12}
+        - {x: 60, y: -12}
+        - {x: 60, y: 14}
+        - {x: 58, y: 14}
+      - - {x: 56, y: 19}
+        - {x: 58, y: 14}
+        - {x: 60, y: 14}
+        - {x: 60, y: 25}
+        - {x: 57, y: 24}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

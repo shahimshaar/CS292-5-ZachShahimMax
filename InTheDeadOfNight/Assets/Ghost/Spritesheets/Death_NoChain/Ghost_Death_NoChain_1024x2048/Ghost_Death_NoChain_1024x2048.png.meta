@@ -1,0 +1,1741 @@
+fileFormatVersion: 2
+guid: 9520ce4133a5c8d44a35e1a5d957a801
+timeCreated: 1464010317
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ghost_Death_0000
+    21300002: Ghost_Death_0001
+    21300004: Ghost_Death_0002
+    21300006: Ghost_Death_0003
+    21300008: Ghost_Death_0004
+    21300010: Ghost_Death_0005
+    21300012: Ghost_Death_0006
+    21300014: Ghost_Death_0007
+    21300016: Ghost_Death_0008
+    21300018: Ghost_Death_0009
+    21300020: Ghost_Death_0010
+    21300022: Ghost_Death_0011
+    21300024: Ghost_Death_0012
+    21300026: Ghost_Death_0013
+    21300028: Ghost_Death_0014
+    21300030: Ghost_Death_0015
+    21300032: Ghost_Death_0016
+    21300034: Ghost_Death_0017
+    21300036: Ghost_Death_0018
+    21300038: Ghost_Death_0019
+    21300040: Ghost_Death_0020
+    21300042: Ghost_Death_0021
+    21300044: Ghost_Death_0022
+    21300046: Ghost_Death_0023
+    21300048: Ghost_Death_0024
+    21300050: Ghost_Death_0025
+    21300052: Ghost_Death_0026
+    21300054: Ghost_Death_0027
+    21300056: Ghost_Death_0028
+    21300058: Ghost_Death_0029
+    21300060: Ghost_Death_0030
+    21300062: Ghost_Death_0031
+    21300064: Ghost_Death_0032
+    21300066: Ghost_Death_0033
+    21300068: Ghost_Death_0034
+    21300070: Ghost_Death_0035
+    21300072: Ghost_Death_0036
+    21300074: Ghost_Death_0037
+    21300076: Ghost_Death_0038
+    21300078: Ghost_Death_0039
+    21300080: Ghost_Death_0040
+    21300082: Ghost_Death_0041
+    21300084: Ghost_Death_0042
+    21300086: Ghost_Death_0043
+    21300088: Ghost_Death_0044
+    21300090: Ghost_Death_0045
+    21300092: Ghost_Death_0046
+    21300094: Ghost_Death_0047
+    21300096: Ghost_Death_0048
+    21300098: Ghost_Death_0049
+    21300100: Ghost_Death_0050
+    21300102: Ghost_Death_0051
+    21300104: Ghost_Death_0052
+    21300106: Ghost_Death_0053
+    21300108: Ghost_Death_0054
+    21300110: Ghost_Death_0055
+    21300112: Ghost_Death_0056
+    21300114: Ghost_Death_0057
+    21300116: Ghost_Death_0058
+    21300118: Ghost_Death_0059
+    21300120: Ghost_Death_0060
+    21300122: Ghost_Death_0061
+    21300124: Ghost_Death_0062
+    21300126: Ghost_Death_0063
+    21300128: Ghost_Death_0064
+    21300130: Ghost_Death_0065
+    21300132: Ghost_Death_0066
+    21300134: Ghost_Death_0067
+    21300136: Ghost_Death_0068
+    21300138: Ghost_Death_0069
+    21300140: Ghost_Death_0070
+    21300142: Ghost_Death_0071
+    21300144: Ghost_Death_0072
+    21300146: Ghost_Death_0073
+    21300148: Ghost_Death_0074
+    21300150: Ghost_Death_0075
+    21300152: Ghost_Death_0076
+    21300154: Ghost_Death_0077
+    21300156: Ghost_Death_0078
+    21300158: Ghost_Death_0079
+    21300160: Ghost_Death_0080
+    21300162: Ghost_Death_0081
+    21300164: Ghost_Death_0082
+    21300166: Ghost_Death_0083
+    21300168: Ghost_Death_0084
+    21300170: Ghost_Death_0085
+    21300172: Ghost_Death_0086
+    21300174: Ghost_Death_0087
+    21300176: Ghost_Death_No_Chain_0000
+    21300178: Ghost_Death_No_Chain_0001
+    21300180: Ghost_Death_No_Chain_0002
+    21300182: Ghost_Death_No_Chain_0003
+    21300184: Ghost_Death_No_Chain_0004
+    21300186: Ghost_Death_No_Chain_0005
+    21300188: Ghost_Death_No_Chain_0006
+    21300190: Ghost_Death_No_Chain_0007
+    21300192: Ghost_Death_No_Chain_0008
+    21300194: Ghost_Death_No_Chain_0009
+    21300196: Ghost_Death_No_Chain_0010
+    21300198: Ghost_Death_No_Chain_0011
+    21300200: Ghost_Death_No_Chain_0012
+    21300202: Ghost_Death_No_Chain_0013
+    21300204: Ghost_Death_No_Chain_0014
+    21300206: Ghost_Death_No_Chain_0015
+    21300208: Ghost_Death_No_Chain_0016
+    21300210: Ghost_Death_No_Chain_0017
+    21300212: Ghost_Death_No_Chain_0018
+    21300214: Ghost_Death_No_Chain_0019
+    21300216: Ghost_Death_No_Chain_0020
+    21300218: Ghost_Death_No_Chain_0021
+    21300220: Ghost_Death_No_Chain_0022
+    21300222: Ghost_Death_No_Chain_0023
+    21300224: Ghost_Death_No_Chain_0024
+    21300226: Ghost_Death_No_Chain_0025
+    21300228: Ghost_Death_No_Chain_0026
+    21300230: Ghost_Death_No_Chain_0027
+    21300232: Ghost_Death_No_Chain_0028
+    21300234: Ghost_Death_No_Chain_0029
+    21300236: Ghost_Death_No_Chain_0030
+    21300238: Ghost_Death_No_Chain_0031
+    21300240: Ghost_Death_No_Chain_0032
+    21300242: Ghost_Death_No_Chain_0033
+    21300244: Ghost_Death_No_Chain_0034
+    21300246: Ghost_Death_No_Chain_0035
+    21300248: Ghost_Death_No_Chain_0036
+    21300250: Ghost_Death_No_Chain_0037
+    21300252: Ghost_Death_No_Chain_0038
+    21300254: Ghost_Death_No_Chain_0039
+    21300256: Ghost_Death_No_Chain_0040
+    21300258: Ghost_Death_No_Chain_0041
+    21300260: Ghost_Death_No_Chain_0042
+    21300262: Ghost_Death_No_Chain_0043
+    21300264: Ghost_Death_No_Chain_0044
+    21300266: Ghost_Death_No_Chain_0045
+    21300268: Ghost_Death_No_Chain_0046
+    21300270: Ghost_Death_No_Chain_0047
+    21300272: Ghost_Death_No_Chain_0048
+    21300274: Ghost_Death_No_Chain_0049
+    21300276: Ghost_Death_No_Chain_0050
+    21300278: Ghost_Death_No_Chain_0051
+    21300280: Ghost_Death_No_Chain_0052
+    21300282: Ghost_Death_No_Chain_0053
+    21300284: Ghost_Death_No_Chain_0054
+    21300286: Ghost_Death_No_Chain_0055
+    21300288: Ghost_Death_No_Chain_0056
+    21300290: Ghost_Death_No_Chain_0057
+    21300292: Ghost_Death_No_Chain_0058
+    21300294: Ghost_Death_No_Chain_0059
+    21300296: Ghost_Death_No_Chain_0060
+    21300298: Ghost_Death_No_Chain_0061
+    21300300: Ghost_Death_No_Chain_0062
+    21300302: Ghost_Death_No_Chain_0063
+    21300304: Ghost_Death_No_Chain_0064
+    21300306: Ghost_Death_No_Chain_0065
+    21300308: Ghost_Death_No_Chain_0066
+    21300310: Ghost_Death_No_Chain_0067
+    21300312: Ghost_Death_No_Chain_0068
+    21300314: Ghost_Death_No_Chain_0069
+    21300316: Ghost_Death_No_Chain_0070
+    21300318: Ghost_Death_No_Chain_0071
+    21300320: Ghost_Death_No_Chain_0072
+    21300322: Ghost_Death_No_Chain_0073
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ghost_Death_No_Chain_0000
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1101
+        width: 166
+        height: 135
+      alignment: 9
+      pivot: {x: 0.42168674, y: 0.39259258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 82}
+        - {x: -67, y: 62}
+        - {x: -70, y: 52}
+        - {x: -70, y: 8}
+        - {x: -59, y: -11}
+        - {x: -25, y: -53}
+        - {x: 37, y: -53}
+        - {x: 96, y: 25}
+        - {x: 96, y: 63}
+        - {x: 82, y: 82}
+    - name: Ghost_Death_No_Chain_0001
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1538
+        width: 168
+        height: 132
+      alignment: 9
+      pivot: {x: 0.43452382, y: 0.40151516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 79}
+        - {x: -55, y: 45}
+        - {x: -73, y: 30}
+        - {x: -73, y: 12}
+        - {x: -69, y: 14}
+        - {x: -67, y: 16}
+        - {x: -67, y: 18}
+        - {x: -65, y: 15}
+        - {x: -61, y: 13}
+        - {x: -29, y: -47}
+        - {x: -18, y: -53}
+        - {x: 47, y: -53}
+        - {x: 95, y: 5}
+        - {x: 95, y: 73}
+        - {x: 70, y: 79}
+    - name: Ghost_Death_No_Chain_0002
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1557
+        width: 170
+        height: 125
+      alignment: 9
+      pivot: {x: 0.44705883, y: 0.424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 72}
+        - {x: -60, y: 54}
+        - {x: -76, y: 43}
+        - {x: -76, y: 7}
+        - {x: -36, y: -53}
+        - {x: 38, y: -53}
+        - {x: 42, y: -49}
+        - {x: 94, y: 17}
+        - {x: 94, y: 53}
+        - {x: 82, y: 72}
+    - name: Ghost_Death_No_Chain_0003
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1555
+        width: 170
+        height: 115
+      alignment: 9
+      pivot: {x: 0.45882353, y: 0.46086955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81, y: 62}
+        - {x: -48, y: 62}
+        - {x: -73, y: 56}
+        - {x: -78, y: 35}
+        - {x: -78, y: 18}
+        - {x: -70, y: 2}
+        - {x: -17, y: -53}
+        - {x: 42, y: -53}
+        - {x: 92, y: 9}
+        - {x: 92, y: 56}
+    - name: Ghost_Death_No_Chain_0004
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1427
+        width: 168
+        height: 114
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.4649123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 61}
+        - {x: -78, y: 46}
+        - {x: -78, y: 2}
+        - {x: -23, y: -53}
+        - {x: 45, y: -53}
+        - {x: 90, y: 2}
+        - {x: 90, y: 49}
+        - {x: 46, y: 61}
+    - name: Ghost_Death_No_Chain_0005
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1250
+        width: 165
+        height: 116
+      alignment: 9
+      pivot: {x: 0.47272727, y: 0.45689654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 59}
+        - {x: 40, y: 63}
+        - {x: -78, y: 63}
+        - {x: -78, y: -34}
+        - {x: -70, y: -53}
+        - {x: 36, y: -53}
+        - {x: 74, y: -13}
+        - {x: 87, y: 3}
+        - {x: 87, y: 33}
+    - name: Ghost_Death_No_Chain_0006
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1426
+        width: 161
+        height: 117
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.45299146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 64}
+        - {x: -66, y: 56}
+        - {x: -77, y: 46}
+        - {x: -77, y: 4}
+        - {x: -44, y: -53}
+        - {x: 74, y: -53}
+        - {x: 84, y: -29}
+        - {x: 84, y: 55}
+        - {x: 62, y: 64}
+    - name: Ghost_Death_No_Chain_0007
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1403
+        width: 157
+        height: 119
+      alignment: 9
+      pivot: {x: 0.477707, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 66}
+        - {x: -75, y: 62}
+        - {x: -75, y: 22}
+        - {x: -27, y: -32}
+        - {x: -18, y: -41}
+        - {x: -11, y: -46}
+        - {x: 2, y: -53}
+        - {x: 43, y: -53}
+        - {x: 82, y: -23}
+        - {x: 82, y: 25}
+        - {x: 33, y: 66}
+    - name: Ghost_Death_No_Chain_0008
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 332
+        width: 150
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48, y: 0.44166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52, y: -24}
+        - {x: 78, y: -20}
+        - {x: 78, y: -5}
+        - {x: 75, y: 10}
+        - {x: 54, y: 22}
+        - {x: 34, y: 53}
+        - {x: 11, y: 67}
+        - {x: -62, y: 67}
+        - {x: -66, y: 66}
+        - {x: -72, y: 57}
+        - {x: -72, y: 42}
+        - {x: -56, y: 30}
+        - {x: -25, y: -49}
+        - {x: -5, y: -53}
+        - {x: 37, y: -53}
+        - {x: 40, y: -42}
+        - {x: 36, y: -18}
+        - {x: 28, y: -11}
+    - name: Ghost_Death_No_Chain_0009
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 508
+        width: 144
+        height: 121
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.43801653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -12}
+        - {x: 51, y: -28}
+        - {x: 76, y: -28}
+        - {x: 76, y: 5}
+        - {x: 17, y: 68}
+        - {x: -45, y: 68}
+        - {x: -53, y: 67}
+        - {x: -56, y: 68}
+        - {x: -68, y: 68}
+        - {x: -68, y: -2}
+        - {x: -50, y: -53}
+        - {x: 34, y: -53}
+        - {x: 41, y: -30}
+        - {x: 36, y: -18}
+        - {x: 28, y: -11}
+    - name: Ghost_Death_No_Chain_0010
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 671
+        width: 139
+        height: 123
+      alignment: 9
+      pivot: {x: 0.4676259, y: 0.43089432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -12}
+        - {x: 27, y: -11}
+        - {x: 23, y: 4}
+        - {x: 31, y: -13}
+        - {x: 39, y: -22}
+        - {x: 49, y: -29}
+        - {x: 58, y: -32}
+        - {x: 74, y: -34}
+        - {x: 74, y: -11}
+        - {x: 71, y: -2}
+        - {x: 22, y: 70}
+        - {x: -65, y: 70}
+        - {x: -65, y: 9}
+        - {x: -14, y: -53}
+        - {x: 34, y: -53}
+        - {x: 36, y: -51}
+        - {x: 38, y: -39}
+        - {x: 38, y: -26}
+        - {x: 35, y: -19}
+    - name: Ghost_Death_No_Chain_0011
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 381
+        width: 133
+        height: 124
+      alignment: 9
+      pivot: {x: 0.45864663, y: 0.42741936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 71}
+        - {x: -61, y: 48}
+        - {x: -50, y: 40}
+        - {x: -31, y: -37}
+        - {x: -14, y: -53}
+        - {x: 56, y: -53}
+        - {x: 72, y: -49}
+        - {x: 72, y: -11}
+        - {x: 71, y: -7}
+        - {x: 25, y: 71}
+    - name: Ghost_Death_No_Chain_0012
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 239
+        width: 127
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4488189, y: 0.4140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 75}
+        - {x: -57, y: 73}
+        - {x: -57, y: 34}
+        - {x: -26, y: -51}
+        - {x: -17, y: -53}
+        - {x: 43, y: -53}
+        - {x: 70, y: -45}
+        - {x: 70, y: -23}
+        - {x: 67, y: -12}
+        - {x: 41, y: 50}
+        - {x: 8, y: 75}
+    - name: Ghost_Death_No_Chain_0013
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1073
+        width: 122
+        height: 133
+      alignment: 9
+      pivot: {x: 0.43442622, y: 0.39849624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53, y: 80}
+        - {x: -53, y: -16}
+        - {x: -43, y: -53}
+        - {x: 69, y: -53}
+        - {x: 69, y: -4}
+        - {x: 20, y: 80}
+    - name: Ghost_Death_No_Chain_0014
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 212
+        width: 118
+        height: 137
+      alignment: 9
+      pivot: {x: 0.41525424, y: 0.38686132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -33}
+        - {x: 1, y: -53}
+        - {x: 69, y: -53}
+        - {x: 69, y: 4}
+        - {x: 55, y: 66}
+        - {x: 8, y: 84}
+        - {x: -49, y: 84}
+        - {x: -49, y: 28}
+    - name: Ghost_Death_No_Chain_0015
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 54
+        width: 114
+        height: 140
+      alignment: 9
+      pivot: {x: 0.40350878, y: 0.37857142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 87}
+        - {x: -46, y: 87}
+        - {x: -46, y: -22}
+        - {x: -24, y: -53}
+        - {x: 68, y: -53}
+        - {x: 68, y: -24}
+        - {x: 67, y: -19}
+    - name: Ghost_Death_No_Chain_0016
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 208
+        width: 110
+        height: 141
+      alignment: 9
+      pivot: {x: 0.38181818, y: 0.36879432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 89}
+        - {x: -38, y: 89}
+        - {x: -41, y: 87}
+        - {x: -42, y: 84}
+        - {x: -42, y: 62}
+        - {x: -40, y: 59}
+        - {x: -28, y: -31}
+        - {x: -12, y: -47}
+        - {x: 9, y: -52}
+        - {x: 68, y: -52}
+        - {x: 68, y: 10}
+        - {x: 60, y: 63}
+    - name: Ghost_Death_No_Chain_0017
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 19
+        width: 108
+        height: 142
+      alignment: 9
+      pivot: {x: 0.35185185, y: 0.35915494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 91}
+        - {x: -38, y: 40}
+        - {x: -24, y: -42}
+        - {x: -5, y: -51}
+        - {x: 70, y: -51}
+        - {x: 70, y: -16}
+        - {x: 33, y: 90}
+        - {x: 28, y: 91}
+    - name: Ghost_Death_No_Chain_0018
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1380
+        width: 106
+        height: 142
+      alignment: 9
+      pivot: {x: 0.31132075, y: 0.34507042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 93}
+        - {x: -33, y: -40}
+        - {x: -16, y: -49}
+        - {x: 73, y: -49}
+        - {x: 73, y: -3}
+        - {x: 42, y: 93}
+    - name: Ghost_Death_No_Chain_0019
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 175
+        width: 110
+        height: 143
+      alignment: 9
+      pivot: {x: 0.29090908, y: 0.33566433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 95}
+        - {x: -32, y: -38}
+        - {x: -9, y: -48}
+        - {x: 78, y: -48}
+        - {x: 78, y: 18}
+        - {x: 25, y: 95}
+    - name: Ghost_Death_No_Chain_0020
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1220
+        width: 116
+        height: 146
+      alignment: 9
+      pivot: {x: 0.27586207, y: 0.33561644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 97}
+        - {x: -32, y: -38}
+        - {x: 0, y: -49}
+        - {x: 51, y: -49}
+        - {x: 84, y: -37}
+        - {x: 84, y: 0}
+        - {x: 19, y: 97}
+    - name: Ghost_Death_No_Chain_0021
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 168
+        width: 128
+        height: 150
+      alignment: 9
+      pivot: {x: 0.2890625, y: 0.34666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 98}
+        - {x: -37, y: 98}
+        - {x: -37, y: -52}
+        - {x: 75, y: -52}
+        - {x: 91, y: -34}
+        - {x: 91, y: 6}
+        - {x: 39, y: 91}
+    - name: Ghost_Death_No_Chain_0022
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 808
+        width: 141
+        height: 154
+      alignment: 9
+      pivot: {x: 0.31205675, y: 0.36363637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -18}
+        - {x: 24, y: -10}
+        - {x: 43, y: -18}
+        - {x: 97, y: -24}
+        - {x: 97, y: 10}
+        - {x: 96, y: 20}
+        - {x: 9, y: 98}
+        - {x: -44, y: 98}
+        - {x: -44, y: -43}
+        - {x: 3, y: -56}
+        - {x: 25, y: -56}
+        - {x: 31, y: -47}
+        - {x: 34, y: -43}
+        - {x: 33, y: -24}
+    - name: Ghost_Death_No_Chain_0023
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 926
+        width: 154
+        height: 158
+      alignment: 9
+      pivot: {x: 0.33766234, y: 0.38607594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 95}
+        - {x: 18, y: 97}
+        - {x: -49, y: 97}
+        - {x: -52, y: 93}
+        - {x: -52, y: 24}
+        - {x: -39, y: -40}
+        - {x: -1, y: -61}
+        - {x: 31, y: -61}
+        - {x: 41, y: -55}
+        - {x: 102, y: -21}
+        - {x: 102, y: 11}
+    - name: Ghost_Death_No_Chain_0024
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 928
+        width: 164
+        height: 159
+      alignment: 9
+      pivot: {x: 0.35365853, y: 0.4025157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 88}
+        - {x: 19, y: 95}
+        - {x: -58, y: 95}
+        - {x: -58, y: -58}
+        - {x: -31, y: -64}
+        - {x: 15, y: -64}
+        - {x: 22, y: -58}
+        - {x: 106, y: -8}
+        - {x: 106, y: 52}
+    - name: Ghost_Death_No_Chain_0025
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1696
+        width: 169
+        height: 157
+      alignment: 9
+      pivot: {x: 0.36094674, y: 0.41401273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 46}
+        - {x: -39, y: -38}
+        - {x: -27, y: -65}
+        - {x: 56, y: -65}
+        - {x: 108, y: -34}
+        - {x: 108, y: 40}
+        - {x: 96, y: 51}
+        - {x: -34, y: 92}
+        - {x: -59, y: 92}
+        - {x: -61, y: 88}
+    - name: Ghost_Death_No_Chain_0026
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1699
+        width: 172
+        height: 154
+      alignment: 9
+      pivot: {x: 0.36627907, y: 0.41558442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: 12}
+        - {x: 109, y: 24}
+        - {x: 95, y: 49}
+        - {x: -28, y: 90}
+        - {x: -61, y: 90}
+        - {x: -63, y: 85}
+        - {x: -63, y: -24}
+        - {x: -24, y: -64}
+        - {x: 26, y: -64}
+        - {x: 30, y: -58}
+        - {x: 30, y: -23}
+        - {x: 89, y: 3}
+    - name: Ghost_Death_No_Chain_0027
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1536
+        width: 170
+        height: 149
+      alignment: 9
+      pivot: {x: 0.37058824, y: 0.40939596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 88}
+        - {x: -63, y: 88}
+        - {x: -63, y: 39}
+        - {x: -42, y: -24}
+        - {x: -25, y: -43}
+        - {x: -2, y: -61}
+        - {x: 34, y: -61}
+        - {x: 40, y: -60}
+        - {x: 107, y: 0}
+        - {x: 107, y: 38}
+        - {x: 52, y: 74}
+    - name: Ghost_Death_No_Chain_0028
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1380
+        width: 166
+        height: 144
+      alignment: 9
+      pivot: {x: 0.37951806, y: 0.39583334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 87}
+        - {x: -63, y: 87}
+        - {x: -63, y: 41}
+        - {x: -43, y: -26}
+        - {x: 0, y: -57}
+        - {x: 35, y: -57}
+        - {x: 89, y: -14}
+        - {x: 103, y: -2}
+        - {x: 103, y: 56}
+    - name: Ghost_Death_No_Chain_0029
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1098
+        width: 161
+        height: 138
+      alignment: 9
+      pivot: {x: 0.39130434, y: 0.3768116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 51}
+        - {x: 5, y: 86}
+        - {x: -63, y: 86}
+        - {x: -63, y: 32}
+        - {x: -34, y: -45}
+        - {x: -8, y: -52}
+        - {x: 36, y: -52}
+        - {x: 44, y: -13}
+        - {x: 34, y: -6}
+        - {x: 98, y: 1}
+    - name: Ghost_Death_No_Chain_0030
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1259
+        width: 156
+        height: 130
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.36153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 83}
+        - {x: -65, y: 83}
+        - {x: -65, y: 21}
+        - {x: -24, y: -47}
+        - {x: 67, y: -47}
+        - {x: 91, y: -28}
+        - {x: 91, y: 23}
+        - {x: 50, y: 74}
+    - name: Ghost_Death_No_Chain_0031
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 976
+        width: 153
+        height: 122
+      alignment: 9
+      pivot: {x: 0.4509804, y: 0.36065573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 78}
+        - {x: -69, y: 49}
+        - {x: -41, y: -27}
+        - {x: 2, y: -44}
+        - {x: 57, y: -44}
+        - {x: 84, y: -16}
+        - {x: 84, y: 28}
+        - {x: 50, y: 78}
+    - name: Ghost_Death_No_Chain_0032
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 798
+        width: 151
+        height: 113
+      alignment: 9
+      pivot: {x: 0.49006623, y: 0.37168142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: -7}
+        - {x: 32, y: 2}
+        - {x: 35, y: 1}
+        - {x: 52, y: -8}
+        - {x: 77, y: -14}
+        - {x: 77, y: 41}
+        - {x: 34, y: 71}
+        - {x: -72, y: 71}
+        - {x: -74, y: 69}
+        - {x: -74, y: 47}
+        - {x: -29, y: -19}
+        - {x: -10, y: -33}
+        - {x: 5, y: -42}
+        - {x: 34, y: -42}
+        - {x: 41, y: -37}
+        - {x: 44, y: -28}
+        - {x: 42, y: -13}
+    - name: Ghost_Death_No_Chain_0033
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 643
+        width: 151
+        height: 107
+      alignment: 9
+      pivot: {x: 0.50993377, y: 0.38317758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77, y: 66}
+        - {x: -77, y: 48}
+        - {x: -55, y: 34}
+        - {x: -32, y: -22}
+        - {x: 3, y: -41}
+        - {x: 52, y: -41}
+        - {x: 62, y: -39}
+        - {x: 74, y: -18}
+        - {x: 74, y: 47}
+        - {x: 55, y: 66}
+    - name: Ghost_Death_No_Chain_0034
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 671
+        width: 151
+        height: 113
+      alignment: 9
+      pivot: {x: 0.51655626, y: 0.34513274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 25}
+        - {x: -36, y: -39}
+        - {x: 67, y: -39}
+        - {x: 73, y: -35}
+        - {x: 73, y: 40}
+        - {x: 72, y: 43}
+        - {x: 38, y: 74}
+        - {x: -35, y: 74}
+        - {x: -78, y: 68}
+    - name: Ghost_Death_No_Chain_0035
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 671
+        width: 151
+        height: 121
+      alignment: 9
+      pivot: {x: 0.50993377, y: 0.32231405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 82}
+        - {x: -77, y: 66}
+        - {x: -77, y: 37}
+        - {x: -36, y: -25}
+        - {x: -9, y: -39}
+        - {x: 58, y: -39}
+        - {x: 74, y: -21}
+        - {x: 74, y: 41}
+        - {x: 54, y: 82}
+    - name: Ghost_Death_No_Chain_0036
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 533
+        width: 151
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5033113, y: 0.30645162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 86}
+        - {x: -76, y: 67}
+        - {x: -76, y: 21}
+        - {x: -71, y: -2}
+        - {x: -23, y: -38}
+        - {x: 69, y: -38}
+        - {x: 75, y: -26}
+        - {x: 75, y: 57}
+        - {x: 63, y: 86}
+    - name: Ghost_Death_No_Chain_0037
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 959
+        width: 152
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2977099}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 92}
+        - {x: -76, y: 73}
+        - {x: -76, y: -17}
+        - {x: -67, y: -39}
+        - {x: 54, y: -39}
+        - {x: 76, y: -6}
+        - {x: 76, y: 65}
+        - {x: 58, y: 92}
+    - name: Ghost_Death_No_Chain_0038
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 522
+        width: 151
+        height: 135
+      alignment: 9
+      pivot: {x: 0.49668875, y: 0.2888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 96}
+        - {x: -75, y: 60}
+        - {x: -75, y: 18}
+        - {x: -29, y: -39}
+        - {x: 47, y: -39}
+        - {x: 76, y: 11}
+        - {x: 76, y: 66}
+        - {x: 41, y: 96}
+    - name: Ghost_Death_No_Chain_0039
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 612
+        width: 151
+        height: 133
+      alignment: 9
+      pivot: {x: 0.49668875, y: 0.2932331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 94}
+        - {x: -74, y: 58}
+        - {x: -75, y: 55}
+        - {x: -75, y: 38}
+        - {x: -14, y: -39}
+        - {x: 45, y: -39}
+        - {x: 76, y: -9}
+        - {x: 76, y: 73}
+        - {x: 36, y: 94}
+    - name: Ghost_Death_No_Chain_0040
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 466
+        width: 147
+        height: 132
+      alignment: 9
+      pivot: {x: 0.50340134, y: 0.3030303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 92}
+        - {x: -74, y: 70}
+        - {x: -74, y: 39}
+        - {x: -57, y: 30}
+        - {x: -32, y: -25}
+        - {x: -8, y: -40}
+        - {x: 43, y: -40}
+        - {x: 73, y: 8}
+        - {x: 73, y: 68}
+        - {x: 60, y: 92}
+    - name: Ghost_Death_No_Chain_0041
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 363
+        width: 144
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5138889, y: 0.3129771}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 90}
+        - {x: -25, y: 90}
+        - {x: -74, y: 71}
+        - {x: -74, y: 21}
+        - {x: -28, y: -34}
+        - {x: -17, y: -41}
+        - {x: 44, y: -41}
+        - {x: 70, y: -3}
+        - {x: 70, y: 75}
+        - {x: 69, y: 79}
+    - name: Ghost_Death_No_Chain_0042
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 363
+        width: 139
+        height: 131
+      alignment: 9
+      pivot: {x: 0.52517986, y: 0.32061067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 89}
+        - {x: -73, y: 60}
+        - {x: -73, y: 24}
+        - {x: -17, y: -42}
+        - {x: 43, y: -42}
+        - {x: 52, y: -38}
+        - {x: 66, y: 16}
+        - {x: 66, y: 77}
+        - {x: 30, y: 89}
+    - name: Ghost_Death_No_Chain_0043
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 376
+        width: 135
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5407407, y: 0.32575756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 74}
+        - {x: -73, y: -14}
+        - {x: -60, y: -43}
+        - {x: 41, y: -43}
+        - {x: 62, y: -25}
+        - {x: 62, y: 89}
+        - {x: -13, y: 89}
+        - {x: -22, y: 87}
+    - name: Ghost_Death_No_Chain_0044
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 925
+        width: 130
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5538462, y: 0.3432836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 88}
+        - {x: -72, y: 54}
+        - {x: -72, y: 9}
+        - {x: -40, y: -36}
+        - {x: -12, y: -46}
+        - {x: 36, y: -46}
+        - {x: 52, y: -26}
+        - {x: 58, y: -17}
+        - {x: 58, y: 88}
+    - name: Ghost_Death_No_Chain_0045
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 77
+        width: 127
+        height: 135
+      alignment: 9
+      pivot: {x: 0.56692916, y: 0.35555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 87}
+        - {x: -72, y: 73}
+        - {x: -72, y: 2}
+        - {x: -43, y: -41}
+        - {x: -23, y: -48}
+        - {x: 40, y: -48}
+        - {x: 54, y: -31}
+        - {x: 55, y: -24}
+        - {x: 55, y: 87}
+    - name: Ghost_Death_No_Chain_0046
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 226
+        width: 126
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.36764705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53, y: 86}
+        - {x: -72, y: 58}
+        - {x: -72, y: 3}
+        - {x: -39, y: -40}
+        - {x: -15, y: -50}
+        - {x: 46, y: -50}
+        - {x: 54, y: -45}
+        - {x: 54, y: 86}
+    - name: Ghost_Death_No_Chain_0047
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 61
+        width: 126
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.38686132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 84}
+        - {x: -26, y: 73}
+        - {x: -72, y: 53}
+        - {x: -72, y: 15}
+        - {x: -36, y: -53}
+        - {x: 54, y: -53}
+        - {x: 54, y: 84}
+    - name: Ghost_Death_No_Chain_0048
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 15
+        width: 134
+        height: 139
+      alignment: 9
+      pivot: {x: 0.53731346, y: 0.41007194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 82}
+        - {x: -72, y: 47}
+        - {x: -72, y: 15}
+        - {x: -67, y: 4}
+        - {x: -18, y: -57}
+        - {x: 60, y: -57}
+        - {x: 62, y: -49}
+        - {x: 62, y: 69}
+        - {x: 51, y: 82}
+    - name: Ghost_Death_No_Chain_0049
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 519
+        width: 146
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49315068, y: 0.4347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 78}
+        - {x: -72, y: 48}
+        - {x: -72, y: -3}
+        - {x: -31, y: -60}
+        - {x: 58, y: -60}
+        - {x: 74, y: 21}
+        - {x: 74, y: 69}
+        - {x: 62, y: 78}
+    - name: Ghost_Death_No_Chain_0050
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 806
+        width: 151
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4370861, y: 0.46043167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 75}
+        - {x: -66, y: 39}
+        - {x: -66, y: -13}
+        - {x: -39, y: -64}
+        - {x: 45, y: -64}
+        - {x: 67, y: -58}
+        - {x: 85, y: -6}
+        - {x: 85, y: 69}
+        - {x: 75, y: 75}
+    - name: Ghost_Death_No_Chain_0051
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1104
+        width: 155
+        height: 141
+      alignment: 9
+      pivot: {x: 0.42580646, y: 0.47517732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89, y: 70}
+        - {x: 59, y: 74}
+        - {x: -34, y: 74}
+        - {x: -66, y: 60}
+        - {x: -66, y: -67}
+        - {x: 47, y: -67}
+        - {x: 57, y: -29}
+        - {x: 89, y: 42}
+    - name: Ghost_Death_No_Chain_0052
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1112
+        width: 156
+        height: 142
+      alignment: 9
+      pivot: {x: 0.42307693, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 71}
+        - {x: -14, y: 71}
+        - {x: -66, y: 27}
+        - {x: -66, y: -38}
+        - {x: -32, y: -71}
+        - {x: 67, y: -71}
+        - {x: 90, y: 3}
+        - {x: 90, y: 65}
+    - name: Ghost_Death_No_Chain_0053
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1268
+        width: 157
+        height: 144
+      alignment: 9
+      pivot: {x: 0.42038217, y: 0.5208333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 69}
+        - {x: -20, y: 69}
+        - {x: -66, y: 34}
+        - {x: -66, y: -62}
+        - {x: -51, y: -75}
+        - {x: 60, y: -75}
+        - {x: 91, y: -2}
+        - {x: 91, y: 59}
+    - name: Ghost_Death_No_Chain_0054
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 764
+        width: 158
+        height: 148
+      alignment: 9
+      pivot: {x: 0.4177215, y: 0.5405405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: -63}
+        - {x: -56, y: -74}
+        - {x: -41, y: -80}
+        - {x: 60, y: -80}
+        - {x: 92, y: -18}
+        - {x: 92, y: 41}
+        - {x: 31, y: 68}
+        - {x: -21, y: 68}
+        - {x: -66, y: 14}
+    - name: Ghost_Death_No_Chain_0055
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 759
+        width: 161
+        height: 155
+      alignment: 9
+      pivot: {x: 0.41614908, y: 0.5548387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 69}
+        - {x: -67, y: 39}
+        - {x: -67, y: -67}
+        - {x: -58, y: -86}
+        - {x: 51, y: -86}
+        - {x: 94, y: 12}
+        - {x: 94, y: 53}
+        - {x: 51, y: 69}
+    - name: Ghost_Death_No_Chain_0056
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1250
+        width: 163
+        height: 163
+      alignment: 9
+      pivot: {x: 0.41104296, y: 0.5644172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 71}
+        - {x: 3, y: 71}
+        - {x: -67, y: 4}
+        - {x: -67, y: -49}
+        - {x: -6, y: -92}
+        - {x: 55, y: -92}
+        - {x: 96, y: 9}
+        - {x: 96, y: 43}
+        - {x: 62, y: 59}
+    - name: Ghost_Death_No_Chain_0057
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 20
+        width: 164
+        height: 168
+      alignment: 9
+      pivot: {x: 0.40853658, y: 0.57738096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 71}
+        - {x: -67, y: 19}
+        - {x: -67, y: -43}
+        - {x: -10, y: -97}
+        - {x: 56, y: -97}
+        - {x: 97, y: -1}
+        - {x: 97, y: 47}
+        - {x: 60, y: 71}
+    - name: Ghost_Death_No_Chain_0058
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 202
+        width: 164
+        height: 169
+      alignment: 9
+      pivot: {x: 0.40243903, y: 0.5739645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -97}
+        - {x: 52, y: -97}
+        - {x: 98, y: -8}
+        - {x: 98, y: 62}
+        - {x: 53, y: 72}
+        - {x: 10, y: 72}
+        - {x: -66, y: 4}
+        - {x: -66, y: -69}
+    - name: Ghost_Death_No_Chain_0059
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 570
+        width: 165
+        height: 171
+      alignment: 9
+      pivot: {x: 0.4060606, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 72}
+        - {x: -67, y: -10}
+        - {x: -67, y: -48}
+        - {x: -65, y: -51}
+        - {x: -59, y: -49}
+        - {x: -33, y: -75}
+        - {x: 19, y: -99}
+        - {x: 52, y: -99}
+        - {x: 98, y: 29}
+        - {x: 98, y: 50}
+        - {x: 55, y: 72}
+    - name: Ghost_Death_No_Chain_0060
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 385
+        width: 165
+        height: 171
+      alignment: 9
+      pivot: {x: 0.4060606, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 72}
+        - {x: -67, y: -2}
+        - {x: -67, y: -80}
+        - {x: 9, y: -99}
+        - {x: 51, y: -99}
+        - {x: 98, y: 24}
+        - {x: 98, y: 48}
+        - {x: 36, y: 72}
+    - name: Ghost_Death_No_Chain_0061
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 755
+        width: 167
+        height: 172
+      alignment: 9
+      pivot: {x: 0.4071856, y: 0.5755814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 73}
+        - {x: -68, y: -3}
+        - {x: -68, y: -73}
+        - {x: -37, y: -99}
+        - {x: 49, y: -99}
+        - {x: 99, y: 25}
+        - {x: 99, y: 50}
+        - {x: 50, y: 73}
+    - name: Ghost_Death_No_Chain_0062
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 941
+        width: 168
+        height: 172
+      alignment: 9
+      pivot: {x: 0.4107143, y: 0.5755814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: 46}
+        - {x: 54, y: 73}
+        - {x: 13, y: 73}
+        - {x: -43, y: 15}
+        - {x: -69, y: -16}
+        - {x: -69, y: -47}
+        - {x: -65, y: -48}
+        - {x: -60, y: -47}
+        - {x: -28, y: -73}
+        - {x: -2, y: -94}
+        - {x: 14, y: -99}
+        - {x: 47, y: -99}
+        - {x: 48, y: -86}
+        - {x: 99, y: 25}
+        - {x: 99, y: 41}
+    - name: Ghost_Death_No_Chain_0063
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1867
+        width: 169
+        height: 171
+      alignment: 9
+      pivot: {x: 0.41420117, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 72}
+        - {x: 12, y: 64}
+        - {x: -70, y: -3}
+        - {x: -70, y: -42}
+        - {x: -7, y: -92}
+        - {x: 16, y: -99}
+        - {x: 55, y: -99}
+        - {x: 99, y: 26}
+        - {x: 99, y: 48}
+        - {x: 34, y: 72}
+    - name: Ghost_Death_No_Chain_0064
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1867
+        width: 169
+        height: 171
+      alignment: 9
+      pivot: {x: 0.41420117, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 72}
+        - {x: -67, y: 10}
+        - {x: -70, y: 3}
+        - {x: -70, y: -64}
+        - {x: -11, y: -97}
+        - {x: 0, y: -99}
+        - {x: 51, y: -99}
+        - {x: 99, y: 23}
+        - {x: 99, y: 51}
+        - {x: 66, y: 72}
+    - name: Ghost_Death_No_Chain_0065
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1312
+        width: 170
+        height: 171
+      alignment: 9
+      pivot: {x: 0.41764706, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 72}
+        - {x: -42, y: 54}
+        - {x: -71, y: -13}
+        - {x: -71, y: -54}
+        - {x: -18, y: -99}
+        - {x: 49, y: -99}
+        - {x: 64, y: -86}
+        - {x: 99, y: 15}
+        - {x: 99, y: 63}
+        - {x: 94, y: 72}
+    - name: Ghost_Death_No_Chain_0066
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1127
+        width: 170
+        height: 171
+      alignment: 9
+      pivot: {x: 0.41764706, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 72}
+        - {x: -71, y: -14}
+        - {x: -71, y: -44}
+        - {x: -11, y: -95}
+        - {x: 8, y: -99}
+        - {x: 53, y: -99}
+        - {x: 99, y: 15}
+        - {x: 99, y: 48}
+        - {x: 43, y: 72}
+    - name: Ghost_Death_No_Chain_0067
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1497
+        width: 171
+        height: 171
+      alignment: 9
+      pivot: {x: 0.42105263, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 72}
+        - {x: -72, y: -20}
+        - {x: -72, y: -60}
+        - {x: -11, y: -99}
+        - {x: 51, y: -99}
+        - {x: 99, y: 21}
+        - {x: 99, y: 46}
+        - {x: 48, y: 72}
+    - name: Ghost_Death_No_Chain_0068
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1867
+        width: 172
+        height: 171
+      alignment: 9
+      pivot: {x: 0.4244186, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 72}
+        - {x: 5, y: 72}
+        - {x: -73, y: -16}
+        - {x: -73, y: -59}
+        - {x: -6, y: -99}
+        - {x: 50, y: -99}
+        - {x: 99, y: 27}
+        - {x: 99, y: 45}
+        - {x: 75, y: 56}
+    - name: Ghost_Death_No_Chain_0069
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1682
+        width: 172
+        height: 171
+      alignment: 9
+      pivot: {x: 0.4244186, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 72}
+        - {x: 5, y: 72}
+        - {x: -73, y: -5}
+        - {x: -73, y: -66}
+        - {x: -57, y: -85}
+        - {x: 5, y: -99}
+        - {x: 61, y: -99}
+        - {x: 99, y: -1}
+        - {x: 99, y: 40}
+        - {x: 72, y: 69}
+    - name: Ghost_Death_No_Chain_0070
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1684
+        width: 172
+        height: 170
+      alignment: 9
+      pivot: {x: 0.43023255, y: 0.58235294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 71}
+        - {x: -74, y: 7}
+        - {x: -74, y: -45}
+        - {x: -29, y: -99}
+        - {x: 51, y: -99}
+        - {x: 98, y: 25}
+        - {x: 98, y: 45}
+        - {x: 52, y: 71}
+    - name: Ghost_Death_No_Chain_0071
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1868
+        width: 172
+        height: 170
+      alignment: 9
+      pivot: {x: 0.43023255, y: 0.59411764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 69}
+        - {x: -74, y: 15}
+        - {x: -74, y: -53}
+        - {x: -21, y: -101}
+        - {x: 58, y: -101}
+        - {x: 98, y: 19}
+        - {x: 98, y: 43}
+        - {x: 62, y: 69}
+    - name: Ghost_Death_No_Chain_0072
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1684
+        width: 172
+        height: 170
+      alignment: 9
+      pivot: {x: 0.43023255, y: 0.61764705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 65}
+        - {x: -74, y: -17}
+        - {x: -74, y: -82}
+        - {x: -70, y: -89}
+        - {x: -1, y: -105}
+        - {x: 60, y: -105}
+        - {x: 98, y: 18}
+        - {x: 98, y: 32}
+        - {x: 42, y: 65}
+    - name: Ghost_Death_No_Chain_0073
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1868
+        width: 173
+        height: 170
+      alignment: 9
+      pivot: {x: 0.433526, y: 0.65882355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 58}
+        - {x: 13, y: 58}
+        - {x: 5, y: 55}
+        - {x: -75, y: -24}
+        - {x: -75, y: -76}
+        - {x: -13, y: -112}
+        - {x: 47, y: -112}
+        - {x: 50, y: -82}
+        - {x: 98, y: 12}
+        - {x: 98, y: 33}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
