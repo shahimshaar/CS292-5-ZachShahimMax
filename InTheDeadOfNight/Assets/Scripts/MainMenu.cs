@@ -15,4 +15,10 @@ public class MainMenu : MonoBehaviour
         Debug.Log("THE GAME HAS QUIT!");
         Application.Quit();
     }
+
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("StartMenu");
+    }
 }
