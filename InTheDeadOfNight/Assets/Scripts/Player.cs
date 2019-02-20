@@ -10,12 +10,10 @@ public class Player : MonoBehaviour
     public int Darkness = 0;
     public int XP = 0;
     private const float CriticalArea = .5f;
-<<<<<<< Updated upstream
+
     public bool aDam = false;
-    private float speed = 7.5f;
-=======
-    private float speed = 20.0f;
->>>>>>> Stashed changes
+    private float speed = 10.0f;
+
 
     void Awake()
     {
@@ -38,6 +36,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         Shoot();
+        //Rotate();
         DarknessMeter();
         PowerMeter();
         GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
@@ -46,6 +45,7 @@ public class Player : MonoBehaviour
         PowerUp3();
         GodMode();
         Death();
+        Debug.Log(XP);
     }
 
     private void Shoot()
@@ -54,14 +54,29 @@ public class Player : MonoBehaviour
         // Shoots a projectile in the direction of the mouse click
         if (Input.GetMouseButtonDown(0))
         {
-            Vector2 target = Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
-            Vector2 myPos = new Vector2(transform.position.x, transform.position.y + .203f);
-            Vector2 direction = target - myPos;
+
+            Vector3 target = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,Input.mousePosition.z));
+            Vector3 myPos = new Vector3(transform.position.x, transform.position.y + .203f,0);
+            Vector3 direction = target - myPos;
             direction.Normalize();
             GameObject projectile = (GameObject)Instantiate(AttackPrefab, myPos, Quaternion.identity);
             projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
         }
     }
+
+    /*private void Rotate()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 vectorToTarget = mouse - transform.position;
+            float angle = (Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg) - 90;
+            Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * 2000000);
+        }
+
+    }*/
+
 
     void DarknessMeter()
     {
@@ -112,6 +127,7 @@ public class Player : MonoBehaviour
     public void PowerUp1()
     {
         GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
+
         if (Input.GetKeyDown("a"))
         {
             if (XP >= 30)
