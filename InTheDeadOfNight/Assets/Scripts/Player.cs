@@ -4,40 +4,54 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private GameObject EnemyGameObject;
-    public GameObject[] enemies;
+    public GameObject[] enemyObject;
     public GameObject AttackPrefab;
     private UI_Manager uimanager;
-    public int Health = 100;
     public int Darkness = 0;
+    public int XP = 0;
     private const float CriticalArea = .5f;
+<<<<<<< Updated upstream
     public bool aDam = false;
     private float speed = 7.5f;
+=======
+    private float speed = 20.0f;
+>>>>>>> Stashed changes
+
+    void Awake()
+    {
+        GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
+    }
 
     void Start()
     {
+        // Sets Darkness meters initial state.
         uimanager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
 
         if (uimanager != null)
         {
-            uimanager.UpdateDarkness(Darkness);
-            uimanager.UpdateLight(Health / 5);
+            uimanager.UpdateDarkness(Darkness/5);
+            uimanager.UpdateXP(XP/10);
         }
     }
 
 
     void Update()
     {
-        Death();
-        DarknessMeter();
-        Lightmeter();
-        Rotate();
         Shoot();
+        DarknessMeter();
+        PowerMeter();
+        GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
+        PowerUp1();
+        PowerUp2();
+        PowerUp3();
+        GodMode();
+        Death();
     }
 
     private void Shoot()
     {
 
+        // Shoots a projectile in the direction of the mouse click
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 target = Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
@@ -49,49 +63,122 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Rotate()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector3 vectorToTarget = mouse - transform.position;
-            float angle = (Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg) - 90;
-            Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
-            transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * 2000000);
-        }
-
-    }
-
     void DarknessMeter()
     {
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");      //stores each enemy on screen into a list
-        Darkness = enemies.Length * 5;                                            //updates darkness
-        uimanager.UpdateDarkness(Darkness / 5);                                 //Passes darkness into the uimanger to update                                 
+        // Updates darkness meter. Since the darkness meter is a sprite with 20 elements, it can only take in elements corrisponding to multiples of 5.
+        if (Darkness % 5 == 0)
+        {
+            uimanager.UpdateDarkness(Darkness / 5);
+        }                               
     }
 
-    void Lightmeter()
+    void PowerMeter()
     {
-        if (Health % 5 == 0)
+        if (XP % 10 == 0)
         {
-            uimanager.UpdateLight(Health / 5);
+            uimanager.UpdateXP(XP/10);
         }
     }
 
+    // Does damage to the player when called
     public void Damage()
     {
-        Health--;
-    }
+        Darkness++;
 
-    public void Battery()
-    {
-        Health += 20;
-
-        if (Health > 100)
+        if(Darkness < 0)
         {
-            Health = 100;
+            Darkness = 0;
         }
     }
 
+
+    // Removes darkness when enemy is destroyed.
+    public void EnDeath()
+    {
+        Darkness--;
+    }
+
+    // Adds XP
+    public void PowerUp()
+    {
+        XP++;
+
+        if (XP > 100)
+        {
+            XP = 100;
+        }
+    }
+
+    public void PowerUp1()
+    {
+        GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
+        if (Input.GetKeyDown("a"))
+        {
+            if (XP >= 30)
+            {
+                for (int i = 0; i < enemyObject.Length; i++)
+                {
+                    Debug.Log(enemyObject[i]);
+                    enemyObject[i].GetComponent<EnemyAI>().PowerUp1();
+                }
+
+                XP = XP - 30;
+            }
+        }
+    }
+
+    public void PowerUp2()
+    {
+        GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
+        if (Input.GetKeyDown("s"))
+        {
+            if (XP >= 60)
+            {
+                for (int i = 0; i < enemyObject.Length; i++)
+                {
+                    enemyObject[i].GetComponent<EnemyAI>().PowerUp2();
+                }
+
+                XP = XP - 60;
+            }
+        }
+    }
+
+    public void PowerUp3()
+    {
+        GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
+        if (Input.GetKeyDown("d"))
+        {
+            if (XP == 100)
+            {
+                for (int i = 0; i < enemyObject.Length; i++)
+                {
+                    enemyObject[i].GetComponent<EnemyAI>().PowerUp3();
+                }
+
+                XP = 0;
+            }
+        }
+    }
+
+    public void GodMode()
+    {
+        if (Input.GetKeyDown("m"))
+        {
+            Darkness = 0;
+            XP = 100;
+        }
+
+    }
+
+    //Battery upgrades XP.
+    public void Battery()
+    {
+        XP = XP + 10;
+    }
+
+
+    // Death condition.
     void Death()
     {
         if (Darkness == 100)
@@ -99,9 +186,5 @@ public class Player : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-        if (Health <= 0)
-        {
-            Destroy(this.gameObject);
-        }
     }
 }
