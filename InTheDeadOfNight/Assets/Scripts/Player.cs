@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public int Darkness = 0;
     private const float CriticalArea = .5f;
     public bool aDam = false;
-    private float speed = 20.0f;
+    private float speed = 7.5f;
 
     void Start()
     {
