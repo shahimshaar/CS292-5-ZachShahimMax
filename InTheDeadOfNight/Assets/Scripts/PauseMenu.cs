@@ -6,8 +6,10 @@ using UnityEngine.Audio;
 
 public class PauseMenu : MonoBehaviour
 {
-    [SerializeField] private bool GameIsPaused = false;
-    [SerializeField] private GameObject pauseMenuUI;
+    [SerializeField] public bool GameIsPaused = false;
+    [SerializeField] public GameObject pauseMenuUI;
+
+    //public string StartMenu;
 
 
     private void Update()
@@ -38,14 +40,16 @@ public class PauseMenu : MonoBehaviour
             GameIsPaused = true;
         }
 
-        public void LoadMenu()
+        public void ReturnToStartMenu()
         {
-            SceneManager.LoadScene("Menu");
-            Time.timeScale = 1f;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("StartMenu");
+            
         }
 
         public void QuitGame()
         {
+        Debug.Log("Quitting game...");
             Application.Quit();
         } 
 }
