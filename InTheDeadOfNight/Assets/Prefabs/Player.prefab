@@ -47,13 +47,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8a4a39be0a4cf4582c60d3bb36c739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies: []
-  AttackPrefab: {fileID: 9098492955910691935, guid: b9bcf3d63e9501f4cb68eff533f07ed3,
+  enemyObject: []
+  AttackPrefab: {fileID: 8686647823063084144, guid: dcda4f9653b63214ba8b05ec5fd158a0,
     type: 3}
-  Health: 100
   Darkness: 0
+  XP: 0
   aDam: 0
-  bulletPrefab: {fileID: 0}
 --- !u!212 &1238871394835602309
 SpriteRenderer:
   m_ObjectHideFlags: 0

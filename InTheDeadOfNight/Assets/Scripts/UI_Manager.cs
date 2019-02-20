@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class UI_Manager : MonoBehaviour
 {
     public Sprite[] Darkness;
-    public Sprite[] Light;
+    public Sprite[] Power;
     public Image DarknessImageDisplay;
-    public Image LightImageDisplay;
+    public Image PowerImageDisplay;
 
 
     public void UpdateDarkness(int currDarkness)
@@ -16,9 +16,9 @@ public class UI_Manager : MonoBehaviour
         DarknessImageDisplay.sprite = Darkness[currDarkness];
     }
 
-    public void UpdateLight(int currLight)
+    public void UpdateXP(int currXP)
     {
-        LightImageDisplay.sprite = Light[currLight];
+        PowerImageDisplay.sprite = Power[currXP];
     }
 
 }
