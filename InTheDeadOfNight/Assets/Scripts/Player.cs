@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     {
         // Sets Darkness meters initial state.
         uimanager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
+        SoundManager.PlaySound ("NewGame");
 
         if (uimanager != null)
         {
@@ -61,6 +62,7 @@ public class Player : MonoBehaviour
             direction.Normalize();
             GameObject projectile = (GameObject)Instantiate(AttackPrefab, myPos, Quaternion.identity);
             projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
+            SoundManager.PlaySound ("Attack");
         }
     }
 
@@ -190,6 +192,7 @@ public class Player : MonoBehaviour
     //Battery upgrades XP.
     public void Battery()
     {
+        SoundManager.PlaySound ("Battery");
         XP = XP + 10;
     }
 
@@ -199,6 +202,7 @@ public class Player : MonoBehaviour
     {
         if (Darkness == 100)
         {
+            SoundManager.PlaySound ("Death");
             Destroy(this.gameObject);
         }
 
