@@ -13,6 +13,7 @@ public class UI_Manager : MonoBehaviour
 
     public void UpdateDarkness(int currDarkness)
     {
+        Debug.LogError(currDarkness);
         DarknessImageDisplay.sprite = Darkness[currDarkness];
     }
 

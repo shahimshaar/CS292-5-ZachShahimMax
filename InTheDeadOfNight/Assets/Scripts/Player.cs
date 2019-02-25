@@ -200,7 +200,7 @@ public class Player : MonoBehaviour
     // Death condition.
     void Death()
     {
-        if (Darkness == 100)
+        if (Darkness >= 100)
         {
             SoundManager.PlaySound ("Death");
             Destroy(this.gameObject);
