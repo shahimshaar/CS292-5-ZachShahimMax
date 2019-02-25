@@ -14,8 +14,6 @@ public class SoundManager : MonoBehaviour
         NewGame = Resources.Load<AudioClip> ("NewGame");
         Critical = Resources.Load<AudioClip> ("Critical");
         Death = Resources.Load<AudioClip> ("Death");
-        MainMenu = Resources.Load<AudioClip> ("MainMenuPause");
-
 
         audioSrc = GetComponent<AudioSource> ();
     }
@@ -31,9 +29,6 @@ public class SoundManager : MonoBehaviour
         switch (clip) {
         case "Attack":
             audioSrc.PlayOneShot (Attack);
-            break;
-        case "MainMenuPause":
-            audioSrc.PlayOneShot (MainMenuPause);
             break;
         case "Battery":
             audioSrc.PlayOneShot (Battery);
