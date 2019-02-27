@@ -6,8 +6,8 @@ using UnityEngine.Audio;
 
 public class PauseMenu : MonoBehaviour
 {
-    [SerializeField] private bool GameIsPaused = false;
-    [SerializeField] private GameObject pauseMenuUI;
+     public static bool GameIsPaused = false;
+    public GameObject pauseMenuUI;
 
 
     private void Update()
