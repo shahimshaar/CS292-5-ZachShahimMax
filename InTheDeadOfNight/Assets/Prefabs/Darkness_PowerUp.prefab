@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 171146462529757305}
   - component: {fileID: 1190002524933779003}
   - component: {fileID: 6258510454311450067}
+  - component: {fileID: 8367679576678217313}
   m_Layer: 5
   m_Name: PowerUp3
   m_TagString: Untagged
@@ -269,6 +270,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &8367679576678217313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408587164036621059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29db9a241ebc1f34799a459e514f07b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3466860511891808101
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +368,7 @@ GameObject:
   - component: {fileID: 4916486223268215436}
   - component: {fileID: 2002461315938824152}
   - component: {fileID: 443570387705769528}
+  - component: {fileID: 6363197183809138952}
   m_Layer: 5
   m_Name: PowerUp2
   m_TagString: Untagged
@@ -460,6 +474,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &6363197183809138952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4145208439775640323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3193229ec173e164e88697fad227ff5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4642329034975774901
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,6 +748,7 @@ GameObject:
   - component: {fileID: 3609461507360658777}
   - component: {fileID: 5964794622242161481}
   - component: {fileID: 2407477301974556144}
+  - component: {fileID: 5258555772559293657}
   m_Layer: 5
   m_Name: PowerUp1
   m_TagString: Untagged
@@ -827,3 +854,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &5258555772559293657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8095924598237010300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f9315f140fa2c4d9d11902ee615bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

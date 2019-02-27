@@ -40,9 +40,9 @@ public class Player : MonoBehaviour
         DarknessMeter();
         PowerMeter();
         GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
-        PowerUp1();
-        PowerUp2();
-        PowerUp3();
+        //PowerUp1();
+        //PowerUp2();
+        //PowerUp3();
         GodMode();
         Death();
     }
@@ -137,26 +137,21 @@ public class Player : MonoBehaviour
     {
         GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
 
-        if (Input.GetKeyDown("a"))
-        {
             if (XP >= 30)
             {
                 for (int i = 0; i < enemyObject.Length; i++)
                 {
-                    Debug.Log(enemyObject[i]);
                     enemyObject[i].GetComponent<EnemyAI>().PowerUp1();
                 }
-
-                XP = XP - 30;
+            Debug.Log("Button was pressed, playerScript");
+            XP = XP - 30;
             }
-        }
     }
 
     public void PowerUp2()
     {
         GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
-        if (Input.GetKeyDown("s"))
-        {
+
             if (XP >= 60)
             {
                 for (int i = 0; i < enemyObject.Length; i++)
@@ -164,16 +159,15 @@ public class Player : MonoBehaviour
                     enemyObject[i].GetComponent<EnemyAI>().PowerUp2();
                 }
 
-                XP = XP - 60;
+            Debug.Log("Button was pressed, playerScript");
+            XP = XP - 60;
             }
-        }
     }
 
     public void PowerUp3()
     {
         GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
-        if (Input.GetKeyDown("d"))
-        {
+
             if (XP == 100)
             {
                 for (int i = 0; i < enemyObject.Length; i++)
@@ -181,9 +175,9 @@ public class Player : MonoBehaviour
                     enemyObject[i].GetComponent<EnemyAI>().PowerUp3();
                 }
 
-                XP = 0;
+            Debug.Log("Button was pressed, playerScript");
+            XP = 0;
             }
-        }
     }
 
     public void GodMode()
@@ -200,6 +194,7 @@ public class Player : MonoBehaviour
     public void Battery()
     {
         XP = XP + 10;
+        Darkness = Darkness - 10;
     }
 
 
@@ -209,6 +204,7 @@ public class Player : MonoBehaviour
         if (Darkness >= 100)
         {
             Destroy(this.gameObject);
+            Application.Quit();
         }
 
     }

@@ -10,6 +10,7 @@ public class EnemyAI : MonoBehaviour
     private UI_Manager uimanager;
     private SpriteRenderer spriteRenderer;
     public bool isDam = false;
+    float speed;
     float DamageRate = 1.0f;
 
 
@@ -18,6 +19,7 @@ public class EnemyAI : MonoBehaviour
         playerObject = GameObject.FindWithTag("Player");
         spriteRenderer = GetComponent<SpriteRenderer>();
         playerObject.GetComponent<Player>().Damage();
+        speed = transform.position.x;
     }
 
 
@@ -41,7 +43,12 @@ public class EnemyAI : MonoBehaviour
         //Makes enemy move towards the center.
         if (distanceToPlayer.sqrMagnitude >= CriticalArea)
         {
-            transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, transform.position.z), new Vector3(0, 0, 0), .5f * Time.deltaTime);
+            if (speed < .5)
+            {
+                speed = 1.0f;
+            }
+
+            transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, transform.position.z), new Vector3(0, 0, 0), speed * Time.deltaTime);
         }
 
         //Stops enemy when in the critical area.
@@ -77,7 +84,7 @@ public class EnemyAI : MonoBehaviour
         // If the enemies are hit by bulby's attacks, they are destroyed.
         if (other.tag == "Projectile")
         {
-            int SpawnBat = Random.Range(1, 100);
+            int SpawnBat = Random.Range(1, 50);
             Vector2 myPos = new Vector2(transform.position.x, transform.position.y);
 
             if (SpawnBat == 25)
@@ -139,7 +146,7 @@ public class EnemyAI : MonoBehaviour
                 {
                     transform.position = new Vector3(transform.position.x + PushRad, transform.position.y + PushRad, transform.position.z);
                 }
-
+            Debug.Log("Button was pressed, EnemyScript");
         }
     }
 
@@ -163,6 +170,5 @@ public class EnemyAI : MonoBehaviour
     {
             playerObject.GetComponent<Player>().EnDeath();
             Destroy(this.gameObject);
-
     }
 }

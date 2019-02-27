@@ -1,18 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PowerUp2_Button : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject playerObject;
+
     void Start()
     {
-        
+        GetComponent<Button>().onClick.AddListener(TogglePowerUp2);
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void TogglePowerUp2()
     {
-        
+        playerObject = GameObject.FindWithTag("Player");
+        playerObject.GetComponent<Player>().PowerUp2();
+        Debug.Log("Button was pressed, powerupScript");
     }
 }
