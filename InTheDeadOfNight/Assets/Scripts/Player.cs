@@ -199,6 +199,7 @@ public class Player : MonoBehaviour
     {
         if (Darkness == 100)
         {
+            FindObjectOfType<GameManager>().GameOver();
             Destroy(this.gameObject);
         }
 
