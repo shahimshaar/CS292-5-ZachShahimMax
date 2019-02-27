@@ -95,6 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ba5757c5c05a1d44b46dd7f187ff01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyExplosionPrefab: {fileID: 189400, guid: 76dc7e8a3df7a8b45877a19d1243f31a, type: 3}
   BatteryPrefab: {fileID: 1963633722475652592, guid: 524c2dfc70690de46babc17885cddcef,
     type: 3}
   isDam: 0

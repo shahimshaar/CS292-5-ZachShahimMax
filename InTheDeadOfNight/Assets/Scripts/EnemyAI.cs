@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject enemyExplosionPrefab;
     private const float CriticalArea = .15f;
     private GameObject playerObject;
     public GameObject BatteryPrefab;
@@ -87,8 +89,9 @@ public class EnemyAI : MonoBehaviour
 
             playerObject.GetComponent<Player>().EnDeath();
             playerObject.GetComponent<Player>().PowerUp();
-            Destroy(this.gameObject);
             Destroy(other.gameObject);
+            Instantiate(enemyExplosionPrefab, transform.position, transform.rotation);
+            Destroy(this.gameObject);
         }
     }
 
