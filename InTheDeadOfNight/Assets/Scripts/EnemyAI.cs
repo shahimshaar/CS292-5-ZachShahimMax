@@ -23,7 +23,7 @@ public class EnemyAI : MonoBehaviour
 
     void Start()
     {
-        uimanager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
+        uimanager = GameObject.Find("Darkness_PowerUp").GetComponent<UI_Manager>();
     }
 
     void Update()
