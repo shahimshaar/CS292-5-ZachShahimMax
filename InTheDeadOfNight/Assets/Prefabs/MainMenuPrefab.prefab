@@ -981,6 +981,7 @@ GameObject:
   - component: {fileID: 3315172816124681675}
   - component: {fileID: 5311931137757607499}
   - component: {fileID: 8728310637665792109}
+  - component: {fileID: 3810439538836793847}
   m_Layer: 5
   m_Name: Play_Button
   m_TagString: Untagged
@@ -1098,6 +1099,21 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &3810439538836793847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3948453431600731474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.27450982}
+  m_EffectDistance: {x: 7, y: -7}
+  m_UseGraphicAlpha: 1
 --- !u!1 &4177218844568582530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,6 +1126,7 @@ GameObject:
   - component: {fileID: 6007202110995591806}
   - component: {fileID: 5400222351728142867}
   - component: {fileID: 4283744167554916877}
+  - component: {fileID: 4165459013560534605}
   m_Layer: 5
   m_Name: Quit_Button
   m_TagString: Untagged
@@ -1227,6 +1244,21 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &4165459013560534605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177218844568582530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 7, y: -7}
+  m_UseGraphicAlpha: 1
 --- !u!1 &4780622545041452034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,6 +1271,7 @@ GameObject:
   - component: {fileID: 8931628384343682225}
   - component: {fileID: 4668407071383829944}
   - component: {fileID: 2553804448301937446}
+  - component: {fileID: 90291085845614158}
   m_Layer: 5
   m_Name: Back_Button
   m_TagString: Untagged
@@ -1367,6 +1400,21 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &90291085845614158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4780622545041452034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 7, y: -7}
+  m_UseGraphicAlpha: 1
 --- !u!1 &5169145277592234073
 GameObject:
   m_ObjectHideFlags: 0
@@ -2015,6 +2063,7 @@ GameObject:
   - component: {fileID: 7078176775426227557}
   - component: {fileID: 8108244511327413849}
   - component: {fileID: 5638855993011239198}
+  - component: {fileID: 1752074343197616530}
   m_Layer: 5
   m_Name: 'Settings_Button '
   m_TagString: Untagged
@@ -2143,6 +2192,21 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1752074343197616530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8773577384575091222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 7, y: -7}
+  m_UseGraphicAlpha: 1
 --- !u!1 &8793230964305562364
 GameObject:
   m_ObjectHideFlags: 0
