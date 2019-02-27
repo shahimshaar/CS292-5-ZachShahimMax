@@ -11,6 +11,7 @@ public class EnemyAI : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public bool isDam = false;
     float DamageRate = 1.0f;
+    private UI_Manager _uiManager;
 
 
     void Awake()
@@ -24,6 +25,8 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         uimanager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
+
+        _uiManager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
     }
 
     void Update()
@@ -85,6 +88,7 @@ public class EnemyAI : MonoBehaviour
                 Instantiate(BatteryPrefab, myPos, Quaternion.identity);
             }
 
+            _uiManager.UpdateScore();
             playerObject.GetComponent<Player>().EnDeath();
             playerObject.GetComponent<Player>().PowerUp();
             Destroy(this.gameObject);

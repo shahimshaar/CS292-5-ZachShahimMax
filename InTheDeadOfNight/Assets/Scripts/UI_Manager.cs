@@ -9,6 +9,8 @@ public class UI_Manager : MonoBehaviour
     public Sprite[] Power;
     public Image DarknessImageDisplay;
     public Image PowerImageDisplay;
+    public Text scoreText;
+    public int score;
 
 
     public void UpdateDarkness(int currDarkness)
@@ -19,6 +21,13 @@ public class UI_Manager : MonoBehaviour
     public void UpdateXP(int currXP)
     {
         PowerImageDisplay.sprite = Power[currXP];
+    }
+
+    public void UpdateScore()
+    {
+        score += 25;
+        scoreText.text = "Score: " + score.ToString("0");
+
     }
 
 }
