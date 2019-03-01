@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +6,8 @@ public class EnemyAI : MonoBehaviour
 {
     [SerializeField]
     private GameObject enemyExplosionPrefab;
+    private GameObject instantiatedObj;
+    private GameObject enemyExplosionOject;
     private const float CriticalArea = .15f;
     private GameObject playerObject;
     public GameObject BatteryPrefab;
@@ -90,8 +92,19 @@ public class EnemyAI : MonoBehaviour
             playerObject.GetComponent<Player>().EnDeath();
             playerObject.GetComponent<Player>().PowerUp();
             Destroy(other.gameObject);
-            Instantiate(enemyExplosionPrefab, transform.position, transform.rotation);
+            if (transform.position.x <= 0){
+                instantiatedObj = (GameObject) Instantiate(enemyExplosionPrefab, transform.position, transform.rotation);
+                Vector3 newScale = instantiatedObj.transform.localScale;
+                newScale.x *= -1;
+                instantiatedObj.transform.localScale = newScale;
+            }
+            else
+            {
+                instantiatedObj = (GameObject) Instantiate(enemyExplosionPrefab, transform.position, transform.rotation);
+            }
+
             Destroy(this.gameObject);
+            Destroy(instantiatedObj, 1.35f);
         }
     }
 
