@@ -6,6 +6,10 @@ public class Player : MonoBehaviour
 {
     public GameObject[] enemyObject;
     public GameObject AttackPrefab;
+    private GameObject instantiatedObj2;
+    public GameObject DeathPrefab;
+    public GameObject ShootingAnimationPrefab;
+    private GameObject instantiatedObj3;
     private UI_Manager uimanager;
     public int Darkness = 0;
     public int XP = 0;
@@ -55,7 +59,11 @@ public class Player : MonoBehaviour
         // Shoots a projectile in the direction of the mouse click
         if (Input.GetMouseButtonDown(0))
         {
-
+            Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 vectorToTarget = mouse - transform.position;
+            float angle = (Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg) - 90;
+            Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * 2000000);
             Vector3 target = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,Input.mousePosition.z));
             Vector3 myPos = new Vector3(transform.position.x, transform.position.y + .203f,0);
             Vector3 direction = target - myPos;
@@ -63,6 +71,8 @@ public class Player : MonoBehaviour
             GameObject projectile = (GameObject)Instantiate(AttackPrefab, myPos, Quaternion.identity);
             projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
             SoundManager.PlaySound ("Attack");
+            instantiatedObj3 = (GameObject)Instantiate(ShootingAnimationPrefab, transform.position, transform.rotation);
+            Destroy(instantiatedObj3, 0.1f);
         }
     }
 
@@ -202,8 +212,10 @@ public class Player : MonoBehaviour
     {
         if (Darkness >= 100)
         {
-            SoundManager.PlaySound ("Death");
             Destroy(this.gameObject);
+            SoundManager.PlaySound ("Death");
+            GameObject instantiatedObj2 = (GameObject)Instantiate(DeathPrefab, transform.position, Quaternion.identity);
+            Destroy(instantiatedObj2, 1.5f);
         }
 
     }
