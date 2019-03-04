@@ -124,7 +124,7 @@ public class BigEnemyAI : MonoBehaviour
             {
                 instantiatedObj = (GameObject)Instantiate(deathAnimation, transform.position, transform.rotation);
             }
-            playerObject.GetComponent<Player>().EnDeath(5);
+           // playerObject.GetComponent<Player>().EnDeath(5);
             Destroy(this.gameObject);
             Destroy(instantiatedObj, 1.35f);
 
