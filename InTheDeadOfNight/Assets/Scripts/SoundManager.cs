@@ -14,6 +14,7 @@ public class SoundManager : MonoBehaviour
         NewGame = Resources.Load<AudioClip> ("NewGame");
         Critical = Resources.Load<AudioClip> ("Critical");
         Death = Resources.Load<AudioClip> ("Death");
+        NewGame = Resources.Load<AudioClip> ("NewGame");
 
         audioSrc = GetComponent<AudioSource> ();
     }

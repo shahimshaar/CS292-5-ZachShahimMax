@@ -1,25 +1,29 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    private const float CriticalArea = .15f;
+    [SerializeField]
+    private GameObject enemyExplosionPrefab;
+    private GameObject instantiatedObj;
+    private GameObject enemyExplosionOject;
+    private const float CriticalArea = .4f;
     private GameObject playerObject;
     public GameObject BatteryPrefab;
     private UI_Manager uimanager;
     private SpriteRenderer spriteRenderer;
     public bool isDam = false;
     float speed;
-    float DamageRate = 1.0f;
+    float DamageRate = 0.65f;
+
 
 
     void Awake()
     {
         playerObject = GameObject.FindWithTag("Player");
         spriteRenderer = GetComponent<SpriteRenderer>();
-        playerObject.GetComponent<Player>().Damage();
-        speed = transform.position.x;
+        speed = Random.Range(.5f, 2.0f);
     }
 
 
@@ -31,23 +35,18 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         Movement();
-        PowerUpX();
         Flip();
     }
 
 
     private void Movement()
     {
-        Vector3 distanceToPlayer = playerObject.transform.position - this.transform.position;
+        Vector3 distanceToPlayer = /*playerObject.transform.position*/ new Vector3(0, 0, 0) - this.transform.position;
+
 
         //Makes enemy move towards the center.
         if (distanceToPlayer.sqrMagnitude >= CriticalArea)
         {
-            if (speed < .5)
-            {
-                speed = 1.0f;
-            }
-
             transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, transform.position.z), new Vector3(0, 0, 0), speed * Time.deltaTime);
         }
 
@@ -92,10 +91,21 @@ public class EnemyAI : MonoBehaviour
                 Instantiate(BatteryPrefab, myPos, Quaternion.identity);
             }
 
-            playerObject.GetComponent<Player>().EnDeath();
-            playerObject.GetComponent<Player>().PowerUp();
-            Destroy(this.gameObject);
+            playerObject.GetComponent<Player>().EnDeath(1);
             Destroy(other.gameObject);
+            if (transform.position.x <= 0){
+                instantiatedObj = (GameObject) Instantiate(enemyExplosionPrefab, transform.position, transform.rotation);
+                Vector3 newScale = instantiatedObj.transform.localScale;
+                newScale.x *= -1;
+                instantiatedObj.transform.localScale = newScale;
+            }
+            else
+            {
+                instantiatedObj = (GameObject) Instantiate(enemyExplosionPrefab, transform.position, transform.rotation);
+            }
+
+            Destroy(this.gameObject);
+            Destroy(instantiatedObj, 1.35f);
         }
     }
 
@@ -109,66 +119,27 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    //Slows time.
-    void PowerUpX()
+    public void SpawnBat()
     {
-        if (Input.GetKeyDown("x"))
+        int SpawnBat = Random.Range(1, 50);
+        Vector2 myPos = new Vector2(transform.position.x, transform.position.y);
+        if (SpawnBat == 25)
         {
-            Time.timeScale = 0.5f;
+            Instantiate(BatteryPrefab, myPos, Quaternion.identity);
         }
     }
-
-
-    // Pushes enemies that are in the critical area back a set distance.
-    public void PowerUp1()
-    {
-        Vector3 distanceToPlayer = playerObject.transform.position - this.transform.position;
-        float PushRad = 1.0f;
-
-        if (distanceToPlayer.sqrMagnitude <= CriticalArea)
-        {
-                if (transform.position.x < 0 && transform.position.y > 0)
-                {
-                    transform.position = new Vector3(transform.position.x - PushRad, transform.position.y + PushRad, transform.position.z);
-                }
-
-                else if (transform.position.x < 0 && transform.position.y < 0)
-                {
-                    transform.position = new Vector3(transform.position.x - PushRad, transform.position.y - PushRad, transform.position.z);
-                }
-
-                else if (transform.position.x > 0 && transform.position.y < 0)
-                {
-                    transform.position = new Vector3(transform.position.x + PushRad, transform.position.y - PushRad, transform.position.z);
-                }
-
-                else
-                {
-                    transform.position = new Vector3(transform.position.x + PushRad, transform.position.y + PushRad, transform.position.z);
-                }
-            Debug.Log("Button was pressed, EnemyScript");
-        }
-    }
-
 
     // Destroys enemies in the critical area.
     public void PowerUp2()
     {
-            //Setting up the critical area
-            Vector3 distanceToPlayer = playerObject.transform.position - this.transform.position;
+        //Setting up the critical area
+        Vector3 distanceToPlayer = /*playerObject.transform.position*/ new Vector3(0, 0, 0) - this.transform.position;
 
-            //Destroys enemies in critical area
-            if (distanceToPlayer.sqrMagnitude <= CriticalArea)
+        //Destroys enemies in critical area
+        if (distanceToPlayer.sqrMagnitude <= CriticalArea)
             {
-                playerObject.GetComponent<Player>().EnDeath();
+                playerObject.GetComponent<Player>().EnDeath(1);
                 Destroy(this.gameObject);
             }
-    }
-
-    // Destroys all enemies on the field.
-    public void PowerUp3()
-    {
-            playerObject.GetComponent<Player>().EnDeath();
-            Destroy(this.gameObject);
     }
 }

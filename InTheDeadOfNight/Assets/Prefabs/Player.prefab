@@ -47,8 +47,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b8a4a39be0a4cf4582c60d3bb36c739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyObject: []
+  enemyObject:
+  - {fileID: 2532575684583600039, guid: de87b4d1fd497f84ea289c7bde8dbebe, type: 3}
   AttackPrefab: {fileID: 8686647823063084144, guid: dcda4f9653b63214ba8b05ec5fd158a0,
+    type: 3}
+  DeathPrefab: {fileID: 2532575684583600039, guid: de87b4d1fd497f84ea289c7bde8dbebe,
+    type: 3}
+  ShootingAnimation: {fileID: 8797138971863104967, guid: 654badcdd2cd4cd4e951ad360e8934ea,
     type: 3}
   Darkness: 0
   XP: 0
@@ -135,9 +140,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0012313128, y: 0.028556108}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.41301203
 --- !u!111 &3739565097139357426
 Animation:
   m_ObjectHideFlags: 0
