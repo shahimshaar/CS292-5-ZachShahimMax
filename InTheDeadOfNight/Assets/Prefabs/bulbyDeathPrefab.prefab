@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2532575684583600033}
   - component: {fileID: 2532575684583600038}
   - component: {fileID: 2532575684583600032}
-  - component: {fileID: 6714566862043927327}
-  m_Layer: 0
+  - component: {fileID: 2806822742736359032}
+  m_Layer: 9
   m_Name: bulbyDeathPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2532575684583600039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: -0.1, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -102,7 +102,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!95 &6714566862043927327
+--- !u!95 &2806822742736359032
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -112,7 +112,7 @@ Animator:
   m_GameObject: {fileID: 2532575684583600039}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7dc08383530a5e549bb5416f968d7e87, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9827e9a52c852bc418fd2e787b53cc80, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

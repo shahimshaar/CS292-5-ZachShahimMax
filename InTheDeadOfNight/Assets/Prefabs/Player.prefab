@@ -53,6 +53,8 @@ MonoBehaviour:
     type: 3}
   DeathPrefab: {fileID: 2532575684583600039, guid: de87b4d1fd497f84ea289c7bde8dbebe,
     type: 3}
+  ShootingAnimation: {fileID: 8797138971863104967, guid: 654badcdd2cd4cd4e951ad360e8934ea,
+    type: 3}
   Darkness: 0
   XP: 0
   aDam: 0
