@@ -19,8 +19,8 @@ public class Battery : MonoBehaviour
         if (other.tag == "Projectile")
         {
             playerObject.GetComponent<Player>().Battery();
-            Destroy(this.gameObject);
             Destroy(other.gameObject);
+            Destroy(this.gameObject);
         }
     }
 }

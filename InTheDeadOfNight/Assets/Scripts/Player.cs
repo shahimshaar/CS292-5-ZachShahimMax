@@ -51,7 +51,6 @@ public class Player : MonoBehaviour
         PowerUp3();
         GodMode();
         Death();
-        Debug.Log(XP);
     }
 
     private void Shoot()
@@ -111,6 +110,11 @@ public class Player : MonoBehaviour
 
     void PowerMeter()
     {
+        if (XP > 100)
+        {
+            XP = 100;
+        }
+
         if (XP % 10 == 0)
         {
             uimanager.UpdateXP(XP/10);
@@ -133,6 +137,11 @@ public class Player : MonoBehaviour
     public void EnDeath()
     {
         Darkness--;
+
+        if (Darkness < 0)
+        {
+            Darkness = 0;
+        }
     }
 
     // Adds XP
