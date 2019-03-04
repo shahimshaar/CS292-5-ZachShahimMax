@@ -6,6 +6,10 @@ public class Player : MonoBehaviour
 {
     public GameObject[] enemyObject;
     public GameObject AttackPrefab;
+    private GameObject instantiatedObj2;
+    public GameObject DeathPrefab;
+    public GameObject ShootingAnimation;
+    private GameObject instantiatedObj3;
     private UI_Manager uimanager;
     public int Darkness = 0;
     public int XP = 0;
@@ -23,7 +27,8 @@ public class Player : MonoBehaviour
     void Start()
     {
         // Sets Darkness meters initial state.
-        uimanager = GameObject.Find("Darkness_PowerUp").GetComponent<UI_Manager>();
+        uimanager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
+        SoundManager.PlaySound ("NewGame");
 
         if (uimanager != null)
         {
@@ -39,6 +44,7 @@ public class Player : MonoBehaviour
         //Rotate();
         DarknessMeter();
         PowerMeter();
+       // AnimationManager();
         GameObject[] enemyObject = GameObject.FindGameObjectsWithTag("Enemy");
         PowerUp1();
         PowerUp2();
@@ -53,15 +59,31 @@ public class Player : MonoBehaviour
         // Shoots a projectile in the direction of the mouse click
         if (Input.GetMouseButtonDown(0))
         {
-
+            
+            Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 vectorToTarget = mouse - transform.position;
+            float angle = (Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg) - 90;
+            Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * 2000000);
             Vector3 target = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,Input.mousePosition.z));
             Vector3 myPos = new Vector3(transform.position.x, transform.position.y + .203f,0);
+            instantiatedObj3 = (GameObject)Instantiate(ShootingAnimation, transform.position, transform.rotation);
+            Destroy(instantiatedObj3, 0.099f);
             Vector3 direction = target - myPos;
             direction.Normalize();
             GameObject projectile = (GameObject)Instantiate(AttackPrefab, myPos, Quaternion.identity);
             projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
+            SoundManager.PlaySound ("Attack");
+            
         }
     }
+
+    //private void AnimationManager(){
+     //   if (Input.GetMouseButtonDown(0))
+     //   {
+        
+      //  }
+   // }
 
     /*private void Rotate()
     {
@@ -199,17 +221,23 @@ public class Player : MonoBehaviour
     //Battery upgrades XP.
     public void Battery()
     {
+        SoundManager.PlaySound ("Battery");
         XP = XP + 10;
     }
 
 
-    // Death condition.
+    // Death condition and death animation trigger.
     void Death()
     {
         if (Darkness >= 100)
         {
+            instantiatedObj2 = (GameObject)Instantiate(DeathPrefab, transform.position, transform.rotation);
             Destroy(this.gameObject);
-        }
+            
+            SoundManager.PlaySound ("Death");
 
+            Destroy(instantiatedObj2.gameObject, 0.5f);
+            
+        }
     }
 }
